@@ -32604,7 +32604,7 @@ header .navbar-brand {
     padding: 0 15px;
     width: 220px;
     height: 60px;
-    background: #fff url(../images/tiketcom.png) no-repeat 0px 0px;
+    background: url(../images/tiketcom.png) no-repeat 0px 0px;
     -webkit-background-size: 180px 48px;
     background-size: 180px 48px
 }
@@ -32614,7 +32614,7 @@ header .navbar-brand.tematic {
     padding: 0;
     width: 220px;
     height: 70px;
-    background: #fff url(../images/tiketcom-tematic.png) no-repeat 0px 0px;
+    background: url(../images/tiketcom-tematic.png) no-repeat 0px 0px;
     -webkit-background-size: 180px 70px;
     background-size: 180px 70px
 }
