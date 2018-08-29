@@ -23133,7 +23133,7 @@ h3.h3-bold {
 }
 
 .form-material .field .hr-active {
-    border-bottom: 1px solid #0064d2 !important
+    border-bottom: 1px solid #216B4E !important
 }
 
 .form-material .field::-webkit-input-placeholder,
@@ -23203,7 +23203,7 @@ h3.h3-bold {
 }
 
 .form-material .drop-down ul li:hover {
-    background: #0064d2;
+    background: #216B4E;
     color: #fff
 }
 
@@ -23587,21 +23587,21 @@ h3.h3-bold {
 
 .menu-main.navbar-nav li.active a:focus {
     background: transparent;
-    color: #0064d2
+    color: #216B4E
 }
 
 .menu-main.navbar-nav li a {
     padding: 12px 0;
     line-height: 15px;
-    color: #0064d2
+    color: #216B4E
 }
 
 .menu-main.navbar-nav li a:focus {
-    color: #0064d2
+    color: #216B4E
 }
 
 .menu-main.navbar-nav li a:hover {
-    color: #0064d2
+    color: #216B4E
 }
 
 .menu-main.navbar-nav li a:after {
@@ -23875,7 +23875,7 @@ h3.h3-bold {
     padding: 15px 20px;
     background: #ddd;
     font-size: 14px;
-    color: #0064d2;
+    color: #216B4E;
     text-align: center
 }
 
@@ -24602,8 +24602,8 @@ h3.h3-bold {
 }
 
 .oneform .dropcity .ui-menu>li.ui-menu-item>.ui-menu-item-wrapper.ui-state-active {
-    background-color: #0064d2;
-    border-color: #0064d2
+    background-color: #216B4E;
+    border-color: #216B4E
 }
 
 .oneform .dropcity .down {
@@ -24726,7 +24726,7 @@ h3.h3-bold {
 
 .oneform .dropcity .down .listing a:hover {
     cursor: pointer;
-    background-color: #0064d2
+    background-color: #216B4E
 }
 
 .oneform .dropcity .down .listing a:hover .label .location,
@@ -24814,7 +24814,7 @@ h3.h3-bold {
 }
 
 .oneform #hotelq-tooltip .downleft a:hover {
-    background: #0064d2
+    background: #216B4E
 }
 
 .oneform #hotelq-tooltip .downleft a:hover .ui-autocomplete-value {
@@ -25351,7 +25351,7 @@ h3.h3-bold {
 }
 
 .download-apps-mini {
-    background: #0064d2 url(../images/why-bg.png) no-repeat center;
+    background: #216B4E url(../images/why-bg.png) no-repeat center;
     height: 120px;
     color: #fff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2)
@@ -26574,7 +26574,7 @@ h3.h3-bold {
 }
 
 .why-choose-tiket {
-    background: #0064d2 url(../images/why-bg.png) no-repeat center;
+    background: #216B4E url(../images/why-bg.png) no-repeat center;
     color: #fff;
     padding: 20px 0;
     text-align: center
@@ -26629,7 +26629,7 @@ h3.h3-bold {
 }
 
 .how-to-refund .head-page {
-    background: #0064d2;
+    background: #216B4E;
     height: 250px;
     color: #fff
 }
@@ -26710,8 +26710,8 @@ h3.h3-bold {
 }
 
 .how-to-refund .tab-pane h3 span {
-    color: #0064d2;
-    border: 2px solid #0064d2;
+    color: #216B4E;
+    border: 2px solid #216B4E;
     border-radius: 100px;
     display: inline-block;
     width: 40px;
@@ -26742,7 +26742,7 @@ h3.h3-bold {
 }
 
 .contact-us-form .contact-detail {
-    background: #0064d2;
+    background: #216B4E;
     padding: 30px;
     height: 100%;
     min-height: 457px;
@@ -27648,13 +27648,13 @@ h3.h3-bold {
 }
 
 .installment-how-to .step-no {
-    border: 1px solid #0064d2;
+    border: 1px solid #216B4E;
     padding: 3px 7px;
     display: inline-block;
     border-radius: 50%;
     margin: 0;
     margin-bottom: 22px;
-    color: #0064d2
+    color: #216B4E
 }
 
 .installment-how-to .p1 {
@@ -27738,11 +27738,11 @@ h3.h3-bold {
 }
 
 .smart-how-to .step {
-    border: 2px solid #0064d2;
+    border: 2px solid #216B4E;
     padding: 4px 10px;
     display: inline-block;
     border-radius: 50%;
-    color: #0064d2;
+    color: #216B4E;
     font-size: 20px;
     background: #fff;
     font-family: "SamsungSans-Medium", Arial, Helvetica, Sans-serif
@@ -27781,7 +27781,7 @@ h3.h3-bold {
 }
 
 .smart-how-to .content-info .side-info p span.text-info {
-    color: #0064d2
+    color: #216B4E
 }
 
 .smart-how-to .content-info .side-info p img.img-text {
@@ -28255,7 +28255,7 @@ h3.h3-bold {
 }
 
 .tix-merchant-banner .container>h3 {
-    color: #0064d2
+    color: #216B4E
 }
 
 .tix-merchant-banner .container>a {
@@ -28293,7 +28293,7 @@ h3.h3-bold {
 
 .search-hotel {
     padding: 15px 0 0px;
-    background: #0064d2 url(../images/diamond-background-sprites.png) repeat-x;
+    background: #216B4E url(../images/diamond-background-sprites.png) repeat-x;
     height: 140px;
     margin-bottom: 40px
 }
@@ -28330,7 +28330,7 @@ h3.h3-bold {
 
 .result-word h4 {
     margin: 0px;
-    color: #0064d2;
+    color: #216B4E;
     font-size: 20px
 }
 
@@ -28388,7 +28388,7 @@ h3.h3-bold {
 .searchitem .itemright h2 {
     font-size: 28px;
     font-weight: bold;
-    color: #0064d2
+    color: #216B4E
 }
 
 .flag {
@@ -29780,12 +29780,12 @@ h3.h3-bold {
 
 .my-account .transit-info {
     font-size: 13px;
-    color: #0064d2;
+    color: #216B4E;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 20px;
     padding: 8px 15px;
-    border: 1px dashed #0064d2
+    border: 1px dashed #216B4E
 }
 
 .my-account .info-additional-flight {
@@ -29852,15 +29852,15 @@ h3.h3-bold {
 }
 
 .my-account .side-menu ul li a.menu-item.active {
-    color: #0064d2
+    color: #216B4E
 }
 
 .my-account .side-menu ul li a.menu-item.active i {
-    color: #0064d2
+    color: #216B4E
 }
 
 .my-account .side-menu ul li a.menu-item.active:hover {
-    color: #0064d2
+    color: #216B4E
 }
 
 .my-account .side-menu ul li a.menu-item.disabled {
@@ -30149,8 +30149,8 @@ h3.h3-bold {
 }
 
 .my-account .panel .panel-body .refund-status-order-detail.label-primary {
-    border: 1px solid #0064d2;
-    color: #0064d2
+    border: 1px solid #216B4E;
+    color: #216B4E
 }
 
 .my-account .panel .panel-body .refund-status-order-detail.label-danger {
@@ -30319,7 +30319,7 @@ h3.h3-bold {
 .my-account .form-group textarea.form-control.mtr-input:focus,
 .my-account .form-group input.form-control.mtr-input:focus {
     border: none;
-    border-bottom: 1px solid #0064d2
+    border-bottom: 1px solid #216B4E
 }
 
 .my-account .form-group select.form-control.mtr-input:not(:placeholder-shown) ~ label,
@@ -30725,14 +30725,14 @@ h3.h3-bold {
     width: 0;
     height: 0;
     border-top: 8px solid transparent;
-    border-right: 10px solid #0064d2;
+    border-right: 10px solid #216B4E;
     border-bottom: 8px solid transparent
 }
 
 .my-account .tabs-cardamom .tab-content .tooltip-myorder .content-tooltip {
     position: relative;
     left: 9px;
-    background: #0064d2;
+    background: #216B4E;
     border-radius: 9px;
     color: #fff;
     font-size: 14px;
@@ -30974,7 +30974,7 @@ h3.h3-bold {
 }
 
 .my-account .text-smart-roundtrip {
-    color: #0064d2;
+    color: #216B4E;
     font-size: 13px;
     margin-right: 13px
 }
@@ -31029,11 +31029,11 @@ h3.h3-bold {
 }
 
 .my-account .color-blue {
-    color: #0064d2 !important
+    color: #216B4E !important
 }
 
 .my-account .color-blue a {
-    color: #0064d2 !important;
+    color: #216B4E !important;
     text-decoration: none
 }
 
@@ -31090,9 +31090,9 @@ h3.h3-bold {
 }
 
 .my-account .label.label-primary {
-    color: #0064d2;
+    color: #216B4E;
     background-color: #fff;
-    border-color: #0064d2
+    border-color: #216B4E
 }
 
 .my-account .label.label-danger {
@@ -31427,8 +31427,8 @@ h3.h3-bold {
     position: absolute;
     color: #fff;
     border-radius: 50%;
-    -webkit-box-shadow: 0 0 0 2px #0064d2;
-    box-shadow: 0 0 0 2px #0064d2;
+    -webkit-box-shadow: 0 0 0 2px #216B4E;
+    box-shadow: 0 0 0 2px #216B4E;
     text-align: center;
     left: 15%;
     top: 3px;
@@ -31452,7 +31452,7 @@ h3.h3-bold {
 }
 
 .my-account .cbp_tmtimeline>li:last-child .cbp_tmicon {
-    background: #0064d2 !important
+    background: #216B4E !important
 }
 
 .my-account .cbp_tmtimeline>li:last-child:before {
@@ -31484,7 +31484,7 @@ h3.h3-bold {
 }
 
 .my-account .refund-content .flight-list-box .micro-icon-smartroundtrip {
-    color: #0064d2;
+    color: #216B4E;
     margin-right: 5px;
     vertical-align: sub
 }
@@ -32304,7 +32304,7 @@ h3.h3-bold {
     font-size: 16px;
     margin: 0px;
     line-height: 22px;
-    color: #0064D2
+    color: #216B4E
 }
 
 .landing-general-info-container>table td:first-child {
@@ -32644,7 +32644,7 @@ header .navbar-default .navbar-nav .active {
 
 header .navbar-default .navbar-nav .active a,
 header .navbar-default .navbar-nav .active a:hover {
-    color: #0064d2;
+    color: #216B4E;
     background-color: transparent
 }
 
@@ -33130,7 +33130,7 @@ footer .bottom-part {
 }
 
 .airline-landing-gallery-slick .slick-dots li button:before {
-    -webkit-text-stroke-color: #0064D2
+    -webkit-text-stroke-color: #216B4E
 }
 
 .general-info-icon.bg-japanairlines,
@@ -33415,15 +33415,15 @@ footer .bottom-part {
 
 .general-info-icon,
 .score-bar-inner {
-    background-color: #0064D2
+    background-color: #216B4E
 }
 
 #tab_description li.active a,
 #tab_description li.active a:active,
 #tab_description li.active a:focus,
 #tab_description li.active a:hover {
-    -webkit-box-shadow: inset 0 -4px 0 0 #0064D2;
-    box-shadow: inset 0 -4px 0 0 #0064D2
+    -webkit-box-shadow: inset 0 -4px 0 0 #216B4E;
+    box-shadow: inset 0 -4px 0 0 #216B4E
 }
 
 #tab_description li.active a,
@@ -35168,7 +35168,7 @@ footer .bottom-part {
 
 .fc-day.fc-today,
 .fc-day-header {
-    background-color: #0064D2 !important
+    background-color: #216B4E !important
 }
 
 td.fc-head-container.fc-widget-header {
@@ -35857,7 +35857,7 @@ td.fc-head-container.fc-widget-header {
 .box-login .form-login form .form-group input.form-control.mtr-input:focus,
 .box-login .form-register form .form-group input.form-control.mtr-input:focus {
     border: none;
-    border-bottom: 1px solid #0064d2
+    border-bottom: 1px solid #216B4E
 }
 
 .box-login .form-login form .form-group input.form-control.mtr-input:not(:placeholder-shown) ~ label,
@@ -36910,7 +36910,7 @@ td.fc-head-container.fc-widget-header {
 
 .box-forgot-password .form-forgot-password form .form-group input.form-control.mtr-input:focus {
     border: none;
-    border-bottom: 1px solid #0064d2
+    border-bottom: 1px solid #216B4E
 }
 
 .box-forgot-password .form-forgot-password form .form-group input.form-control.mtr-input:not(:placeholder-shown) ~ label {
@@ -37199,7 +37199,7 @@ td.fc-head-container.fc-widget-header {
 }
 
 .reschedule-content .pax-box .micro-icon-smartroundtrip {
-    color: #0064d2;
+    color: #216B4E;
     margin-right: 5px;
     vertical-align: sub
 }
@@ -37339,7 +37339,7 @@ td.fc-head-container.fc-widget-header {
 .popup .popup-content.content-tooltip-reschedule .alert-msg h2 {
     font-family: "SamsungSans-Medium", Arial, Helvetica, Sans-serif;
     font-size: 25px;
-    color: #0064d2;
+    color: #216B4E;
     margin: 0
 }
 
@@ -37478,7 +37478,7 @@ td.fc-head-container.fc-widget-header {
 
 .train-route-page .train-tabs .nav-pills .active a {
     border-radius: 0;
-    border-bottom: 4px solid #0064d2;
+    border-bottom: 4px solid #216B4E;
     background: transparent;
     color: #222;
     font-family: "SamsungSans-Medium", Arial, Helvetica, Sans-serif
@@ -37525,7 +37525,7 @@ td.fc-head-container.fc-widget-header {
 }
 
 .seo-flight .breadcrumb a {
-    color: #0064d2
+    color: #216B4E
 }
 
 .seo-flight .breadcrumb strong {
@@ -37565,7 +37565,7 @@ td.fc-head-container.fc-widget-header {
 
 .seo-flight .page-head .icon i {
     font-size: 30px;
-    color: #0064d2;
+    color: #216B4E;
     margin: 0 0 0 0px
 }
 
@@ -37632,7 +37632,7 @@ td.fc-head-container.fc-widget-header {
 }
 
 .seo-flight .content .list li a:hover {
-    color: #0064d2
+    color: #216B4E
 }
 
 .seo-flight .content .rute {
@@ -37673,7 +37673,7 @@ td.fc-head-container.fc-widget-header {
 }
 
 .seo-flight .content .list-cat ul li a:hover {
-    color: #0064d2
+    color: #216B4E
 }
 
 .seo-flight .airlines .airline {
@@ -37694,7 +37694,7 @@ td.fc-head-container.fc-widget-header {
     display: block;
     margin-top: 30px;
     font-size: 16px;
-    color: #0064d2;
+    color: #216B4E;
     text-transform: uppercase
 }
 
@@ -37758,7 +37758,7 @@ td.fc-head-container.fc-widget-header {
 }
 
 .seo-flight .destinasi h5 a {
-    color: #0064d2;
+    color: #216B4E;
     float: right;
     font-size: 14px
 }
@@ -37776,10 +37776,10 @@ td.fc-head-container.fc-widget-header {
 .seo-flight #calendar-wrap #navcalendar {
     min-width: 210px;
     min-height: 114px;
-    background-image: -webkit-gradient(linear, left top, right top, from(#0064d2), to(#53a0fd));
-    background-image: -webkit-linear-gradient(left, #0064d2, #53a0fd);
-    background-image: -o-linear-gradient(left, #0064d2, #53a0fd);
-    background-image: linear-gradient(to right, #0064d2, #53a0fd);
+    background-image: -webkit-gradient(linear, left top, right top, from(#216B4E), to(#53a0fd));
+    background-image: -webkit-linear-gradient(left, #216B4E, #53a0fd);
+    background-image: -o-linear-gradient(left, #216B4E, #53a0fd);
+    background-image: linear-gradient(to right, #216B4E, #53a0fd);
     float: right;
     list-style: none;
     color: #fff;
@@ -37820,7 +37820,7 @@ td.fc-head-container.fc-widget-header {
 
 .seo-flight #calendar-wrap .icon i {
     font-size: 20px;
-    color: #0064d2;
+    color: #216B4E;
     margin: 0 0 0 10px
 }
 
@@ -37945,7 +37945,7 @@ td.fc-head-container.fc-widget-header {
     padding: 0 25px;
     font-weight: normal;
     font-family: "SamsungSans-Medium", Arial, Helvetica, Sans-serif;
-    background-color: #0064d2;
+    background-color: #216B4E;
     text-align: center
 }
 
@@ -38033,7 +38033,7 @@ td.fc-head-container.fc-widget-header {
 
 .seo-flight .carousel .carousel-control {
     background: transparent;
-    color: #0064d2;
+    color: #216B4E;
     text-shadow: none
 }
 
