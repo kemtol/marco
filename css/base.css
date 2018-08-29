@@ -32590,8 +32590,7 @@ h3.h3-bold {
 }
 
 header {
-    background: #fff;
-    min-height: 120px;
+    background: gold;
     border-bottom: 1px solid #ddd
 }
 
@@ -32602,21 +32601,11 @@ header .navbar-header {
 header .navbar-brand {
     margin: 20px 0px 0px 0px;
     padding: 0 15px;
-    width: 220px;
-    height: 60px;
-    background: url(../images/tiketcom.png) no-repeat 0px 0px;
-    -webkit-background-size: 180px 48px;
-    background-size: 180px 48px
 }
 
 header .navbar-brand.tematic {
     margin: 9px 0px 0px 0px;
     padding: 0;
-    width: 220px;
-    height: 70px;
-    background: url(../images/tiketcom-tematic.png) no-repeat 0px 0px;
-    -webkit-background-size: 180px 70px;
-    background-size: 180px 70px
 }
 
 header .navbar {
