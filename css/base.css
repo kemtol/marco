@@ -23609,7 +23609,7 @@ h3.h3-bold {
 
 .menu-main.navbar-nav li a:after {
     content: '|';
-    color: #ddd;
+    color: #fff;
     position: absolute;
     right: -18px;
     top: 11px
@@ -23685,7 +23685,7 @@ h3.h3-bold {
 }
 
 .menu-main-member.navbar-nav>li>a {
-    border-right: 1px solid #ccc;
+    border-right: 1px solid #fff;
     padding: 0 15px;
     font-size: 15px;
     color: #222;
@@ -25155,12 +25155,6 @@ h3.h3-bold {
 .tix-point-highlight p {
     padding: 0 22%;
     margin-bottom: 40px
-}
-
-.tix-point-highlight .row .col-md-3 {
-    float: none;
-    display: inline-block;
-    width: 24.5%
 }
 
 .tix-point-highlight .point-item {
