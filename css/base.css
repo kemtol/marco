@@ -5272,7 +5272,7 @@ button.close {
 
 .carousel {
     position: relative;
-    background:#216B4E;
+    background: #095818;
     margin-bottom:50px;
 }
 
@@ -5297,7 +5297,8 @@ button.close {
     height: auto;
     line-height: 1;
     margin:auto;
-    
+    border-right: 1px solid #4e8c28;
+    border-left: 1px solid #4e8c28;
 }
 
 .carousel-inner>.active,
