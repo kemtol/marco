@@ -25150,7 +25150,7 @@ h3.h3-bold {
 .tix-point-highlight {
     margin-bottom: 40px;
     padding-bottom: 60px;
-    border-bottom: 1px solid #ddd;
+    /*border-bottom: 1px solid #ddd;*/
     text-align: center
 }
 
