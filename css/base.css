@@ -26604,22 +26604,10 @@ h3.h3-bold {
     margin: 40px 0 0 0
 }
 
-.why-choose-tiket .wi2 {
-    background: transparent url(../images/sprite.png) no-repeat -111px -154px;
-    -webkit-background-size: 526px 300px;
-    background-size: 526px 300px
-}
-
-.why-choose-tiket .wi3 {
-    background: transparent url(../images/sprite.png) no-repeat -221px -155px;
-    -webkit-background-size: 526px 300px;
-    background-size: 526px 300px
-}
-
-.why-choose-tiket .wi4 {
-    background: transparent url(../images/sprite.png) no-repeat -331px -155px;
-    -webkit-background-size: 526px 300px;
-    background-size: 526px 300px
+.why-choose-tiket i.fas,
+.why-choose-tiket i.far{
+    padding:2rem 0;
+    font-size:64px;
 }
 
 .development-mode {
