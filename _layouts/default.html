@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
-
     {% include meta.html %}
-
     <!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
@@ -16,98 +13,12 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/base.css" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-
-    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 </head>
-
 <body>
-    <header style="margin-top: 0px;">
-        <div class="container">
-            <nav class="navbar navbar-default" style="padding:5px 0">
-                <div class="navbar-header pull-left">
-                    <a class="navbar-brand tematic" href="/"><img src="{{site.baseurl}}/images/marco-umrah-haji-logo.png" height="90%" /></a>
-                </div>
-				<div class="navbar-header pull-right" style="padding-top: 5px;">
-                    <small style="font-weight: bold;display: block;text-align: right;">Hubungi kami:</small>
-					<a class="navbar-brand tematic" href="/" style="font-weight: bold;font-size: 24px;color: green;line-height: normal;height: auto;margin-top: 0;"><i class="fas fa-phone-volume"></i> (021) 8576-343</a>
-                </div>
-            </nav>
-        </div>
-        <div id="nav--bottom" style=" background: gold;">
-            <div class="container">
-                <nav class="navbar navbar-default">
-                    <div class="">
-                        <ul class="nav navbar-nav menu-main">
-                            <li class="active">
-                                <a href="/" title="Pesawat">Umrah </a>
-                            </li>
-                            <li>
-                                <a href="/" title="Hotel">Haji </a>
-                            </li>
-                            <li>
-                                <a href="/" title="Kereta Api">Tour </a>
-                            </li>
-                            <li>
-                                <a href="/" title="Sewa Mobil">Visa </a>
-                            </li>
-                        </ul>
-                        <ul class="nav navbar-nav navbar-right menu-main-member">
-                            <li>
-                                <span><strong>SENIN - JUM’AT</strong> 9:00 - 21:00 <strong>SABTU</strong> 9:00 - 18:00</span>
-                            </li>
-                            <li class="hide">
-                                <a href="/check-order" class="#js-popup-form">Cek Pesanan</a>
-                            </li>
-                            <li class="pos-relative hide">
-                                <a rel="nofollow" class="button-secondary" href="/login" title="Log In">Log In </a>
-                            </li>
-                        </ul>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
+	
+	{% include header.html %}
 
-    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
-        <!-- Indicators -->
-        <ol class="carousel-indicators hidden">
-            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-            <!--<li data-target="#carousel-example-generic" data-slide-to="1"></li>
-			<li data-target="#carousel-example-generic" data-slide-to="2"></li>-->
-        </ol>
-
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner" role="listbox">
-            <div class="item active">
-                <img src="{{site.baseurl}}/images/main-banner.jpg" alt="...">
-                <div class="carousel-caption hidden">
-                    Lorem ipsum dollor imet 1
-                </div>
-            </div>
-            <!--<div class="item">
-		  <img src="https://static.tiket.photos/image/upload/v1535345052/banner/2018/08/27/510b013a-7646-493f-adb8-2746a73a7b1c93e268f73802cfc67d78a9a51ef21c3e.jpg" alt="...">
-		  <div class="carousel-caption">
-			Lorem ipsum dollor imet 2
-		  </div>
-		</div>
-		<div class="item">
-		  <img src="https://static.tiket.photos/image/upload/v1534461605/banner/2018/08/17/89170820188b8fa73236be942b28c85b0e234d612d.jpg" alt="...">
-		  <div class="carousel-caption">
-			Lorem ipsum dollor imet 3
-		  </div>
-		</div>-->
-        </div>
-
-        <!-- Controls -->
-        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
-            <i class="fas fa-angle-left" aria-hidden="true"></i>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
-            <i class="fas fa-angle-right" aria-hidden="true"></i>
-            <span class="sr-only">Next</span>
-        </a>
-    </div>
+	{% include home-slider.html %}
 
     <div class="container">
         <div class="row home-last-feature">
@@ -191,132 +102,15 @@
             </div>
         </div>
 
-        <div class="official-partner-mix">
-            <h3>Partner tiket.com</h3>
-            <div class="icon-partner-list">
-                <a href="/" alt="Tiket Pesawat Garuda Indonesia"><i class="icon-partner garuda"></i></a>
-                <a href="/" alt="Tiket Pesawat Citilink"><i class="icon-partner citilink"></i></a>
-                <a href="/" alt="Tiket Pesawat Malaysia Airlines"><i class="icon-partner malaysia"></i></a>
-                <a href="/" alt="Tiket Kereta Api Indonesia (KAI)"><i class="icon-partner keretaapi"></i></a>
-		<a href="/" alt="Booking Hotel Aston International"><i class="icon-partner astoninternational"></i></a>
-                <a href="/" alt="Booking Hotel Santika Indonesia Hotels Resorts"><i class="icon-partner santika"></i></a>
-                <a href="/" alt="tiket kidzania jakarta"><i class="icon-partner kidzania"></i></a>
-            </div>
-            <a href="https://www.tiket.com/partners" class="button-primary ghost-primary">Selengkapnya</a>
-            <h3>Partner Pembayaran</h3>
-            <i class="icon-bank"></i>
-        </div>
+		{% include partners.html %}
     </div>
-    <div class="why-choose-tiket">
-        <div class="container">
-            <h2>Mengapa umrah di MARCO</h2>
-            <p></p>
-            <div class="row">
-                <div class="col-xs-3">
-                    <i class="why-icon"></i>
-                    <h3>VISA issuer terbesar di Indonesia</h3>
-                </div>
-                <div class="col-xs-3">
-                    <i class="why-icon wi2"></i>
-                    <h3>Lebih pasti dalam pemberangkatan</h3>
-                </div>
-                <div class="col-xs-3">
-                    <i class="why-icon wi3"></i>
-                    <h3>Jaminan Pembayaran Online Aman &amp; Mudah</h3>
-                </div>
-                <div class="col-xs-3">
-                    <i class="why-icon wi4"></i>
-                    <h3>Layanan<br>Pelanggan 24/7</h3>
-                </div>
-            </div>
-        </div>
-    </div>
+	
+	{% include why-marco.html %}
 
-    <footer>
-        <div class="container">
-            <div class="footer-rich-menu">
-                <div class="row">
-                    <div class="col-xs-5">
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <div class="footer-part-box">
-                                    <p class="title">Perusahaan</p>
-                                    <ul>
-                                        <li>
-                                            <a href="/blog/" title="Blog" target="_blank">Blog </a>
-                                        </li>
-                                        <li>
-                                            <a href="/menjadi-agen-umrah.html" title="Daftarkan Hotel Anda" target="_blank">Daftarkan Agen Anda </a>
-                                        </li>
-                                        <li>
-                                            <a href="" title="Cicilan" target="_blank">Cicilan </a>
-                                        </li>
-                                        <li>
-                                            <a href="/jaminan-umrah.html" title="Perlindungan" target="_blank">Perlindungan </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="col-xs-6">
-                                <div class="footer-part-box">
-                                    <p class="title">Bantuan</p>
-                                    <ul>
-                                        <li>
-                                            <a href="/pertanyaan-umrah.html" title="FAQ" target="_blank">FAQ</a>
-                                        </li>
-                                        <li>
-                                            <a href="/kebijakan-pelanggan.html" title="Kebijakan dan Privasi" target="_blank">Kebijakan dan Privasi </a>
-                                        </li>
-                                        <li>
-                                            <a href="/syarat-ketentuan-umrah.html" title="Syarat dan Ketentuan" target="_blank">Syarat dan Ketentuan </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-3 pull-right">
-                        <div class="customer-care clearfix">
-                            <img src="{{site.baseurl}}/images/marco-cs.png" width="100%" alt="" style="margin-left: 6px;">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="bottom-part">
-            <div class="container">
-                <div class="social-media">
-                    <a href="https://www.facebook.com/tiket" target="_blank" alt="Facebook tiket.com" rel="nofollow">
-                        <i class="fb"></i>
-                    </a>
-                    <a href="https://twitter.com/tiket" target="_blank" alt="Twitter tiket.com" rel="nofollow">
-                        <i class="tw"></i>
-                    </a>
-                    <a href="https://plus.google.com/+tiket" target="_blank" alt="Google+ tiket.com" rel="nofollow">
-                        <i class="gp"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/company/2439131" target="_blank" alt="Linkedin tiket.com" rel="nofollow">
-                        <i class="in"></i>
-                    </a>
-                    <a href="https://www.youtube.com/user/tiketdotcom" target="_blank" alt="Youtube tiket.com" rel="nofollow">
-                        <i class="yt"></i>
-                    </a>
-                </div>
-                <div class="copyright">
-                    <h4>PT. MARCO Tour & Travel</h4>
-                    <a href="https://www.blibli.com/?utm_source=tiketdotcom&amp;utm_medium=refpartner&amp;utm_campaign=Referral_Tiketdotcom" target="_blank" rel="nofollow">
-                        <div class="blibli-company"></div>
-                    </a>
-                    <p>© 2011-2018 PT. MARCO Tour & Travel. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-
-    </footer>
+	{% include footer.html %}
 
     {% include analytics.html %}
 
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </body>
-
 </html>
