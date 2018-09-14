@@ -26579,12 +26579,14 @@ h3.h3-bold {
 .why-choose-tiket {
     background: #216B4E url(../images/why-bg.png) no-repeat center;
     color: #fff;
-    padding: 20px 0;
+    padding: 5rem 0;
     text-align: center
 }
 
 .why-choose-tiket h2 {
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15)
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    margin-top:0;
+    margin-bottom:3rem;
 }
 
 .why-choose-tiket h3 {
@@ -26607,7 +26609,7 @@ h3.h3-bold {
 .why-choose-tiket i.fas,
 .why-choose-tiket i.far{
     padding:2rem 0;
-    font-size:64px;
+    font-size:72px;
 }
 
 .development-mode {
