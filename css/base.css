@@ -25586,12 +25586,13 @@ h3.h3-bold {
 }
 
 .official-partner-mix .icon-partner-list .icon-partner {
-    height: 32px;
+    height: 9rem;
+    width: 20rem;
     display: inline-block;
     background: url(../images/sprite.png) no-repeat center;
-    -webkit-background-size: auto 25px;
-    background-size: auto 25px;
-    margin-right: 15px
+    -webkit-background-size: 80rem;
+    background-size: 80rem;
+    margin-right: 0;
 }
 
 .official-partner-mix .icon-partner-list .icon-partner.q1 {
@@ -25599,23 +25600,23 @@ h3.h3-bold {
 }
 
 .official-partner-mix .icon-partner-list .icon-partner.q2 {
-    background-position: -137px 0;
+    background-position: -20rem 0;
 }
 
 .official-partner-mix .icon-partner-list .icon-partner.q3 {
-    background-position: -254px 0;
+    background-position: -40rem 0;
 }
 
 .official-partner-mix .icon-partner-list .icon-partner.q4 {
-    background-position: -387px 0;
+    background-position: -60rem 0;
 }
 
 .official-partner-mix .icon-partner-list .icon-partner.q5 {
-    background-position: -430px 0;
+    background-position: -20rem -9rem;
 }
 
 .official-partner-mix .icon-partner-list .icon-partner.q6 {
-    background-position: -624px 0;
+    background-position: -40rem -9rem;
 }
 
 .official-partner-mix .button-primary {
