@@ -25612,11 +25612,19 @@ h3.h3-bold {
 }
 
 .official-partner-mix .icon-partner-list .icon-partner.q5 {
-    background-position: -20rem -9rem;
+    background-position: 0rem -9rem;
 }
 
 .official-partner-mix .icon-partner-list .icon-partner.q6 {
+    background-position: -20rem -9rem;
+}
+
+.official-partner-mix .icon-partner-list .icon-partner.q7 {
     background-position: -40rem -9rem;
+}
+
+.official-partner-mix .icon-partner-list .icon-partner.q8 {
+    background-position: -60rem -9rem;
 }
 
 .official-partner-mix .button-primary {
