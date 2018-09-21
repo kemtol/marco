@@ -15,9 +15,10 @@ avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/je
 # Flags below are optional
 #
 
+wa: 6285204023000
+
 # Includes an icon in the footer for each username you enter
 footer-links:
-  wa: 6285204023000
 
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
