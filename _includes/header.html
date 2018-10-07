@@ -15,17 +15,17 @@
             <nav class="navbar navbar-default">
                 <div class="">
                     <ul class="nav navbar-nav menu-main">
-                        <li class="active">
-                            <a href="/" title="Pesawat">Umrah </a>
+                        {% if page.thispage == "umrah" %}<li class="active">{% else %}<li>{% endif %}
+                            <a href="/" title="Penyelenggara Umrah">Umrah </a>
                         </li>
-                        <li>
-                            <a href="/" title="Hotel">Haji </a>
+                        {% if page.thispage == "haji" %}<li class="active">{% else %}<li>{% endif %}
+                            <a href="/penyelenggara-haji/" title="Penyelenggara Haji">Haji </a>
                         </li>
-                        <li>
-                            <a href="/" title="Kereta Api">Tour </a>
+                        {% if page.thispage == "tour" %}<li class="active">{% else %}<li>{% endif %}
+                            <a href="/tour-travel-syariah/" title="Penyelenggara Tour Syariah">Tour </a>
                         </li>
-                        <li>
-                            <a href="/" title="Sewa Mobil">Visa </a>
+                        {% if page.thispage == "visa" %}<li class="active">{% else %}<li>{% endif %}
+                            <a href="/penyedia-visa-haji-umrah/" title="Penyedia Visa">Visa </a>
                         </li>
                     </ul>
                     <ul class="nav navbar-nav navbar-right menu-main-member">
