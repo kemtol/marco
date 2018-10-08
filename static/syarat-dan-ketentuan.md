@@ -2,6 +2,7 @@
 layout: static
 title: syarat dan ketentuan umrah
 permalink: /syarat-ketentuan-umrah.html
+thispage: syarat
 ---
 
 ## Syarat Umum Umroh
