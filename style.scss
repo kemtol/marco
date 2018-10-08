@@ -43,9 +43,22 @@
   }
 }
 
+/*********************
+* override static page
+**********************/
+
+
 div[id*='static-']{
   margin-top:40px;
   margin-bottom:40px;
+  h1{
+    font-size:26px;
+    text-transform: capitalize;
+  }
+  h2{
+    font-size:21px;
+    font-weight:bold
+  }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
