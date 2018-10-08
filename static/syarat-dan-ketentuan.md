@@ -1,13 +1,29 @@
 ---
 layout: static
 title: syarat dan ketentuan umrah
-permalink: /syarat-dan-ketentuan-umrah.html
+permalink: /syarat-ketentuan-umrah.html
 ---
 
+## Syarat Umum Umroh
+1. Beragama Islam
+2. Baligh
+3. Berakal sehat
+4. Merdeka ( Bukan budak )
+5. Mampu
+
+## Rukun Umroh
+1. Niat ihram dari Miqot
+2. Tawaf
+3. Sa'i
+4. Tahallul ( gunting rambut )
+5. Tertib
+
+## Wajib Umroh 
+1. Niat ihram umroh di Miqot
+2. Meninggalkan larangan selama ihram
+
 ## Syarat dan Ketentuan Penyedia Keberangkatan
-
-Sebelum anda memutuskan mengikuti umrah dengan biro travel kami, mohon kesediaannya untuk membaca syarat dan ketentuan berikut.
-
+Sebelum anda memutuskan mengikuti umrah dengan biro travel kami, mohon kesediaannya untuk membaca syarat dan ketentuan berikut:
 1. Harga yang tercantum dapat berubah sewaktu-waktu tanpa pemberitahuan terlebih dahulu.
 2. Itinerary, fasilitas dan jadwal kegiatan dapat berubah sesuai dengan situasi dan kondisi di lapangan.
 3. Peserta/Jamaah akan didampingi oleh Tour Leader dari Jakarta jika kuota diatas 10 pax. Jika kuota dibawah 10 pax maka peserta/jamaah tidak didampingi Tour Leader.
@@ -42,9 +58,7 @@ Sebelum anda memutuskan mengikuti umrah dengan biro travel kami, mohon kesediaan
 32. Kegagalan, gangguan dan keterlambatan dari pesawat udara / kereta api / alat angkut lainnya yang menyebabkan kerugian waktu, tambahan biaya pergantian hotel, transportasi udara ataupun tidak digunakannya visa kunjungan yang telah dimiliki oleh peserta tour.
 33. Meninggalnya peserta akibat sakit yang diderita, kecelakaan, dll.
 
-
 ## MARCO Umrah Wisata berhak atas
-
 1. Membatalkan tanggal keberangkatan apabila jumlah peserta kurang dari kuota dewasa yang ditentukan.
 2. Meminta peserta tour untuk keluar dari rombongan apabila peserta tour yang bersangkutan mencoba membuat kerusuhan, mengacaukan acara tour, meminta dengan paksa dan memberikan informasi yang tidak benar mengenai acara tour, dll.
 3. Mengganti hotel-hotel yang akan digunakan berhubung hotel tersebut sudah penuh dan lain-lain.
