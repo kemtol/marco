@@ -5,6 +5,7 @@ permalink: /syarat-ketentuan-umrah.html
 thispage: syarat
 ---
 ---
+
 ## Syarat Umum Umroh
 1. Beragama Islam
 2. Baligh
@@ -22,7 +23,9 @@ thispage: syarat
 ## Wajib Umroh 
 1. Niat ihram umroh di Miqot
 2. Meninggalkan larangan selama ihram
+
 ---
+
 ## Syarat dan Ketentuan Penyedia Keberangkatan
 Sebelum anda memutuskan mengikuti umrah dengan biro travel kami, mohon kesediaannya untuk membaca syarat dan ketentuan berikut:
 1. Harga yang tercantum dapat berubah sewaktu-waktu tanpa pemberitahuan terlebih dahulu.
@@ -58,7 +61,9 @@ Sebelum anda memutuskan mengikuti umrah dengan biro travel kami, mohon kesediaan
 31. Hilangnya dokumen asli jamaah untuk pengajuan visa yang dikarenakan oleh kelalaian kedutaan yang bersangkutan.
 32. Kegagalan, gangguan dan keterlambatan dari pesawat udara / kereta api / alat angkut lainnya yang menyebabkan kerugian waktu, tambahan biaya pergantian hotel, transportasi udara ataupun tidak digunakannya visa kunjungan yang telah dimiliki oleh peserta tour.
 33. Meninggalnya peserta akibat sakit yang diderita, kecelakaan, dll.
+
 ---
+
 ## MARCO Umrah Wisata berhak atas
 1. Membatalkan tanggal keberangkatan apabila jumlah peserta kurang dari kuota dewasa yang ditentukan.
 2. Meminta peserta tour untuk keluar dari rombongan apabila peserta tour yang bersangkutan mencoba membuat kerusuhan, mengacaukan acara tour, meminta dengan paksa dan memberikan informasi yang tidak benar mengenai acara tour, dll.
