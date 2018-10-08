@@ -61,6 +61,12 @@ div[id*='static-']{
     font-weight:bold
   }
 }
+#static-syarat{
+  hr{
+    margin-top:40px;
+    margin-bottom:40px
+  }
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
