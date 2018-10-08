@@ -9,8 +9,39 @@
 //@import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+.play-button {
+  display: inline-block;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
 
+  .pb-border-1 {
+    padding: 5px;
+    display: block;
+    border-radius: 50%;
+    background: rgba(76, 134, 250, 0.2);
+  }
 
+  .pb-border-2 {
+    padding: 5px;
+    display: block;
+    border-radius: 50%;
+    background: rgba(76, 134, 250, 0.5);
+  }
+
+  .icofont {
+    height: 75px;
+    width: 75px;
+    line-height: 75px;
+    text-align: center;
+    font-size: 32px;
+    border-radius: 50%;
+    background: #4c86fa;
+    color: #fff;
+    display: block;
+  }
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
