@@ -10,6 +10,19 @@
 // Syntax highlighting @import is at the bottom of this file
 
 
+.row{
+  .col-xs-6:nth-child(odd){
+    @include mobile{
+      padding-right:7px;
+    }
+  }
+  .col-xs-6:nth-child(even){
+    @include mobile{
+      padding-right:7px;
+    }
+  }
+}
+
 header {
   .navbar-header{
     img{
@@ -83,7 +96,7 @@ header {
     .item{
       img{
         @include mobile{
-          height: 40vh;
+          height: 45vh;
           max-width:initial;
         }
       }
@@ -93,10 +106,10 @@ header {
         bottom: 20%;
         text-align: right;
         @include mobile{
-          left: 10%;
-          top: 10%;
-          bottom: 10%;
-          right: 10%;
+          left: 5%;
+          top: 5%;
+          bottom: 5%;
+          right: 5%;
           text-align: left;
         }
         
