@@ -224,6 +224,9 @@ header {
 }
 
 .official-partner-mix {
+  @include mobile{
+    margin-bottom: 40px;
+  }
   .a1{
     @include mobile{
       overflow:auto;
