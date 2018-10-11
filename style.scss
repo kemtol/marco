@@ -224,6 +224,11 @@ header {
 }
 
 .tix-point-highlight{
+  p{
+    @include mobile{
+      padding:0;
+    }
+  }
   @include mobile{
     padding-bottom:40px;
   }
