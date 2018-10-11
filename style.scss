@@ -115,8 +115,8 @@ header {
 
 footer{
   hr{
-    padding-right:0;
-    padding-left:0;
+    padding-right:0 !important;
+    padding-left:0 !important;
   }
   
   .footer-rich-menu{
@@ -132,7 +132,7 @@ footer{
     text-align:justify;
     
     @include mobile{
-      column-count:none;
+      column-count:initial;
     }
   }
 }
