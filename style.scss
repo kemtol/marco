@@ -9,6 +9,21 @@
 //@import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+header {
+  .navbar-header{
+    img{
+      @include mobile {
+        width: 100%;
+        height: auto;
+      }
+    }
+    
+    @include mobile {
+      width:50%; 
+    }
+  }
+}
+
 .play-button {
   display: inline-block;
   position: absolute;
