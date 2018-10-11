@@ -157,6 +157,9 @@ footer{
     color:#333;
     border-bottom: 1px solid #f6f6f6;
     padding-bottom: 20px;
+    @include mobile{
+      margin-bottom:20px;
+    }
   }
   h3{
     font-size:21px;
