@@ -223,6 +223,19 @@ header {
   }
 }
 
+.official-partner-mix {
+  .a1{
+    @include mobile{
+      overflow:auto;
+    }
+    .icon-partner-list{
+      @include mobile{
+        width: 1700px;
+      }
+    }
+  }
+}
+
 footer{
   hr{
     padding-right:0 !important;
