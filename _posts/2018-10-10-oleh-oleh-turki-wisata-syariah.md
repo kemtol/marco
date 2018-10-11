@@ -1,7 +1,7 @@
 ---
 title: Buah Tangan Dari Turki. Apa Saja ?
 date: 2018-10-10 00:00:00 Z
-permalink: "/oleh-oleh-wisata-syariah-turki.html"
+permalink: "/blog/oleh-oleh-wisata-syariah-turki.html"
 categories:
 - blog
 layout: post
