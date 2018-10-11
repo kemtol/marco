@@ -236,6 +236,7 @@ header {
   }
   @include mobile{
     padding-bottom:40px;
+    border-bottom: 1px solid #eee;
   }
 }
 
