@@ -223,6 +223,12 @@ header {
   }
 }
 
+.tix-point-highlight{
+  @include mobile{
+    padding-bottom:40px;
+  }
+}
+
 .official-partner-mix {
   @include mobile{
     margin-bottom: 40px;
