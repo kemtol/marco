@@ -9,6 +9,7 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+
 header {
   .navbar-header{
     img{
@@ -18,10 +19,50 @@ header {
       }
     }
     
+    div.navbar-header.pull-right {
+      .navbar-brand.tematic{
+        font-weight: bold;
+        font-size: 24px;
+        color: green;
+        line-height: normal;
+        height: auto;
+        margin-top: 0;
+        
+        include @mobile{
+          font-size:20px;
+          display: block;
+          width: 100%;
+          text-align: right;
+        }
+      }
+    }
+    
     @include mobile {
       width:50%; 
     }
   }
+}
+
+#nav--bottom {
+  nav{
+    ul.nav.navbar-nav{
+      include @mobile{
+        width: 100%;
+        margin: 0;
+        text-align: center;
+      }
+    }
+    ul.nav.navbar-nav.menu-main{
+      li{
+        a{
+          include @mobile{
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+  
 }
 
 .play-button {
