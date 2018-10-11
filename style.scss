@@ -75,8 +75,33 @@ header {
         }
       }
     }
+  }  
+}
+
+#carousel-example-generic{
+  .carousel-inner{
+    .item{
+      img{
+        @include mobile{
+          height: 40vh;
+        }
+      }
+      .carousel-caption{
+        @include mobile{
+          left: 10%;
+          top: 10%;
+          bottom: 10%;
+          right: 10%;
+          text-align: center;
+        }
+      }
+    }
+    
+    @include mobile{
+      width: auto;
+      height: 25%;
+    }
   }
-  
 }
 
 .play-button {
