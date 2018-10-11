@@ -97,25 +97,32 @@ header {
           top: 10%;
           bottom: 10%;
           right: 10%;
-          text-align: center;
+          text-align: left;
         }
         
         h2{
           font-size: 32px;font-weight: bold;margin-top: 0;font-family: georgia;
           @include mobile{
-            font-size:20px;
+            font-size:24px;
+            margin:0;
+            margin-bottom:10px;
+            line-height:initial;
           }
         }
         h3{
           font-size: 24px;margin-top: 2rem;margin-bottom: 2rem;
           @include mobile{
             font-size:18px;
+            margin:0;
+            margin-bottom:10px;
           }
         }
         h4{
           font-size: 24px;
           @include mobile{
             font-size:18px;
+            margin:0;
+            margin-bottom:10px;
           }
         }
       }
@@ -128,6 +135,7 @@ header {
   }
   @include mobile{
     margin-bottom:20px;
+    margin-top: 1px;
   }
 }
 
