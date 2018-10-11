@@ -350,6 +350,22 @@ div[id*='static-']{
     margin-bottom:40px
   }
 }
+.section-items {
+    position: relative
+    .item-title {
+        font-size: 15px;
+        line-height: 1.2;
+        color: #222
+    }
+    .item-desc {
+        font-size: 13px;
+        line-height: 1.38;
+        color: #666
+    }
+    a {
+        cursor: pointer
+    }
+}
 
 /*********************
 * override tour page
