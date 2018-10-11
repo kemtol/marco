@@ -368,6 +368,25 @@ div[id*='static-']{
     }
 }
 
+.tix-row {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap
+}
+
+.tix-row,
+.tix-row-nowrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal
+}
+
+.tix-row-nowrap {
+    -ms-flex-flow: row nowrap;
+    flex-flow: row nowrap
+}
+
 /*********************
 * override tour page
 **********************/
