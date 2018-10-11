@@ -167,6 +167,9 @@ header {
 }
 
 .home-last-feature{
+  @include mobile{
+    text-align:center;
+  }
   .area-picture{
     @include mobile{
       height: 200px !important;
