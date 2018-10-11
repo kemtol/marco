@@ -351,6 +351,15 @@ div[id*='static-']{
   }
 }
 
+/*********************
+* override tour page
+**********************/
+
+.mb-40{margin-bottom:40px}
+.section-features .a1{margin-bottom:40px}
+.section-features .a1 .img-responsive{padding:1rem; background: #eee}
+.section-items a{text-align:center}
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 //@import "highlights";
