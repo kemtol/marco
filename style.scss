@@ -18,7 +18,7 @@
   }
   .col-xs-6:nth-child(even){
     @include mobile{
-      padding-right:7px;
+      padding-left:7px;
     }
   }
 }
@@ -57,6 +57,11 @@ header {
 }
 
 #nav--bottom {
+  .container{
+    @include mobile{
+      padding:0;
+    }
+  }
   nav{
     ul.nav.navbar-nav{
       @include mobile {
@@ -96,7 +101,7 @@ header {
     .item{
       img{
         @include mobile{
-          height: 45vh;
+          height: 50vh;
           max-width:initial;
         }
       }
@@ -111,6 +116,7 @@ header {
           bottom: 5%;
           right: 5%;
           text-align: left;
+          padding-top:10px;
         }
         
         h2{
@@ -149,7 +155,7 @@ header {
     
     @include mobile{
       width: auto;
-      height: 45vh;
+      height: 50vh;
     }
   }
   @include mobile{
@@ -197,6 +203,23 @@ header {
     background: #ffd700;
     color: #fff;
     display: block;
+  }
+}
+
+.why-choose-tiket{
+  @include mobile{
+    background-size:cover;
+    padding:40px 0px;
+  }
+  h2{
+    @include mobile{
+      font-size: 21px;
+    }
+  }
+  i.fas, i.far{
+    @include mobile{
+        font-size: 42px;
+    }
   }
 }
 
