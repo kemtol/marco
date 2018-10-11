@@ -4,6 +4,7 @@ date: 2018-10-10 00:00:00 Z
 permalink: "/blog/oleh-oleh-wisata-syariah-turki.html"
 categories:
 - blog
+author: Adam Rais
 layout: post
 ---
 
