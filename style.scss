@@ -84,31 +84,39 @@ header {
       img{
         @include mobile{
           height: 40vh;
+          max-width:initial;
         }
       }
       .carousel-caption{
-        h2{
-          @include mobile{
-            font-size:20px;
-          }
-        }
-        h3{
-          @include mobile{
-            font-size:18px;
-          }
-        }
-        h4{
-          @include mobile{
-            font-size:18px;
-          }
-        }
-        
+        left: 20%;
+        top: 20%;
+        bottom: 20%;
+        text-align: right;
         @include mobile{
           left: 10%;
           top: 10%;
           bottom: 10%;
           right: 10%;
           text-align: center;
+        }
+        
+        h2{
+          font-size: 32px;font-weight: bold;margin-top: 0;font-family: georgia;
+          @include mobile{
+            font-size:20px;
+          }
+        }
+        h3{
+          font-size: 24px;margin-top: 2rem;margin-bottom: 2rem;
+          @include mobile{
+            font-size:18px;
+          }
+        }
+        h4{
+          font-size: 24px;
+          @include mobile{
+            font-size:18px;
+          }
         }
       }
     }
@@ -120,6 +128,14 @@ header {
   }
   @include mobile{
     margin-bottom:20px;
+  }
+}
+
+.home-last-feature{
+  .area-picture{
+    @include mobile{
+      height: 200px !important;
+    }
   }
 }
 
