@@ -104,6 +104,7 @@ header {
         @include mobile{
           height: 50vh;
           max-width:initial;
+          border:0;
         }
       }
       .carousel-caption{
