@@ -118,6 +118,23 @@ footer{
     padding-right:0;
     padding-left:0;
   }
+  
+  .footer-rich-menu{
+    .customer-care{
+      margin-top:30px;
+    }
+  }
+  
+  .seo{
+    column-count: 3;
+    column-gap: 60px;
+    color: #888;
+    text-align:justify;
+    
+    @include mobile{
+      column-count:none;
+    }
+  }
 }
 
 /*********************
