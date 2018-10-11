@@ -1,9 +1,10 @@
 ---
-layout: static
 title: syarat dan ketentuan umrah
-permalink: /syarat-ketentuan-umrah.html
+permalink: "/syarat-ketentuan-umrah.html"
+layout: static
 thispage: syarat
 ---
+
 ---
 
 ## Syarat Umum Umroh
