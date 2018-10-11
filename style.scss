@@ -19,7 +19,12 @@ header {
       }
     }
     
-    div.navbar-header.pull-right {
+    @include mobile {
+      width:50%; 
+    }
+  }
+  
+  .navbar-header.pull-right {
       .navbar-brand.tematic{
         font-weight: bold;
         font-size: 24px;
@@ -28,7 +33,7 @@ header {
         height: auto;
         margin-top: 0;
         
-        @include mobile{
+        @include mobile {
           font-size:20px;
           display: block;
           width: 100%;
@@ -36,17 +41,12 @@ header {
         }
       }
     }
-    
-    @include mobile {
-      width:50%; 
-    }
-  }
 }
 
 #nav--bottom {
   nav{
     ul.nav.navbar-nav{
-      @include mobile{
+      @include mobile {
         width: 100%;
         margin: 0;
         text-align: center;
