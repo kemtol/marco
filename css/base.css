@@ -21860,7 +21860,7 @@ a.fc-more:hover {
         top: 3px
     }
 }
-
+/*
 @font-face {
     font-family: "SamsungSans-Bold";
     src: url("../fonts/SamsungSans-Bold.eot");
@@ -21926,7 +21926,7 @@ a.fc-more:hover {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale
 }
-
+*/
 .icon-tiket-point:before {
     content: "\a1"
 }
