@@ -235,8 +235,13 @@ header {
         font-size:14px;
         width:calc(100% - 30px);
         padding:5px;
+        max-width:250px;
       }
     }
+  }
+  h3{
+      color: #ff7200;
+      margin-bottom: 10px;
   }
   p{
     @include mobile{
