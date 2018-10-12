@@ -342,7 +342,7 @@ footer{
 }
 
 /*********************
-* override static page
+* override static & pages
 **********************/
 
 
@@ -361,8 +361,17 @@ div[id*='page-']{
     font-weight:bold;
     margin-bottom:20px;
   }
-  ol{
-    list-style-position:inside;
+  ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+  }
+  ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: red;
+    font-weight: bold;
   }
 }
 #static-syarat{
