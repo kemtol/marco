@@ -1,16 +1,14 @@
 <div class="section-items">
     <div class="container">
-        <h3 class="text-center">Cabang MARCO</h3>
-        <p class="text-center">Daftar kantor cabang kami dimana anda dapat membeli paket haji Khusus furoda non kuota:</p>
+        <h2 class="text-center">Cabang MARCO</h2>
+        <p class="text-center mb-40">Daftar kantor cabang kami dimana anda dapat membeli paket haji Khusus furoda non kuota:</p>
         <div class="tix-row">
-            <a href="/hotel/indonesia/city/badung-108001534490276266" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Badung</span>
-                <span class="item-desc">2524 hotel</span>
+            {% for agen in site.agen %}
+            <a class="col-xs-12 col-sm-6" href="">
+                <span class="item-title tix-mb-025">{{ agen.title }}</span>
+                <span class="item-desc">{{ agen.agenwa }}<small>{{ agen.agenalamat }}</small></span>
             </a>
-            <a href="/hotel/indonesia/city/bandung-108001534490276290" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Bandung</span>
-                <span class="item-desc">664 hotel</span>
-            </a>
+            {% endfor %}
         </div>
     </div>
 </div>
