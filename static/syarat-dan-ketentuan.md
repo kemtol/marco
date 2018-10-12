@@ -1,11 +1,13 @@
 ---
 title: syarat dan ketentuan umrah
 permalink: "/syarat-ketentuan-umrah.html"
-layout: static
 thispage: syarat
+layout: static
 ---
 
 ---
+
+<img src="http://marcoumrah.com/images/main-promo.jpg" style="float: left;max-width: 100%;padding: 0 5rem 0 0;">
 
 ## Syarat Umum Umroh
 1. Beragama Islam
