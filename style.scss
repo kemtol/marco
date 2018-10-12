@@ -229,6 +229,15 @@ header {
 }
 
 .tix-point-highlight{
+  .point-item{
+    a{
+      .button-primary{
+        font-size:14px;
+        width:calc(100% - 30px);
+        padding:5px;
+      }
+    }
+  }
   p{
     @include mobile{
       padding:0;
