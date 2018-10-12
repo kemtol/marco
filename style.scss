@@ -406,7 +406,19 @@ div[id*='page-']{
 
 .tix-row {
     -ms-flex-flow: row wrap;
-    flex-flow: row wrap
+    flex-flow: row wrap;
+    a{
+      display:block;
+        span{
+          display:block;
+          color:green;
+          small{
+            font-size:100%;
+            display:block;
+            color:#666;
+          }
+        }
+    }
 }
 
 .tix-row,
@@ -416,6 +428,7 @@ div[id*='page-']{
     display: flex;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal
+  
 }
 
 .tix-row-nowrap {
