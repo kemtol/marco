@@ -229,46 +229,12 @@ thispage: haji
         <h3 class="text-center">Marketing Partner MARCO</h3>
         <p class="text-center">Daftar marketing partner kami dimana anda dapat membeli paket haji Khusus furoda non kuota:</p>
         <div class="tix-row">
-            <a href="/hotel/indonesia/city/badung-108001534490276266" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Badung</span>
-                <span class="item-desc">2524 hotel</span>
+            {% for agen in site.agen %}
+            <a href="">
+                <span class="item-title tix-mb-025">{{ agen.title}}</span>
+                <span class="item-desc">{{ agen.agenwa}}<small>{{ agen.agenalamat}}</small></span>
             </a>
-            <a href="/hotel/indonesia/city/bandung-108001534490276290" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Bandung</span>
-                <span class="item-desc">664 hotel</span>
-            </a>
-            <a href="/hotel/indonesia/city/yogyakarta-108001534490276494" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Yogyakarta</span>
-                <span class="item-desc">386 hotel</span>
-            </a>
-            <a href="/hotel/indonesia/city/surabaya-108001534490276270" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Surabaya</span>
-                <span class="item-desc">297 hotel</span>
-            </a>
-            <a href="/hotel/indonesia/city/malang-108001534490278480" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Malang</span>
-                <span class="item-desc">163 hotel</span>
-            </a>
-            <a href="/hotel/indonesia/city/bogor-108001534490276382" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Bogor</span>
-                <span class="item-desc">207 hotel</span>
-            </a>
-            <a href="/hotel/indonesia/city/makassar-108001534490277183" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Makassar</span>
-                <span class="item-desc">147 hotel</span>
-            </a>
-            <a href="/hotel/indonesia/city/central-jakarta-108001534490276305" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Jakarta Pusat</span>
-                <span class="item-desc">368 hotel</span>
-            </a>
-            <a href="/hotel/indonesia/city/batam-108001534490281904" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Batam</span>
-                <span class="item-desc">174 hotel</span>
-            </a>
-            <a href="/hotel/indonesia/city/denpasar-108001534490277507" class="tix-col-4 tix-column-nowrap tix-mb-05 tix-px-2">
-                <span class="item-title tix-mb-025">Hotel di Denpasar</span>
-                <span class="item-desc">491 hotel</span>
-            </a>
+            {% endfor %}
         </div>
     </div>
 </div>
