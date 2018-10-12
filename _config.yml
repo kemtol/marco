@@ -5,6 +5,9 @@ collections:
   agen:
     title: Agen
     output: true
+  cabang:
+    title: Cabang
+    output: true
   posts:
     title: Posts
     output: true
