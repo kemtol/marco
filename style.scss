@@ -409,15 +409,20 @@ div[id*='page-']{
     flex-flow: row wrap;
     a{
       display:block;
-        span{
+      span{
+        display:block;
+      }
+      .item-title{
+        font-weight:bold;
+      }
+      .item-desc{
+        color:green !important;
+        small{
+          font-size:100%;
           display:block;
-          color:green !important;
-          small{
-            font-size:100%;
-            display:block;
-            color:#666;
-          }
+          color:#666;
         }
+      }
     }
 }
 
