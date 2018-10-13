@@ -11,7 +11,8 @@
 
 #homepage{
   h2{
-    font-weight:bold
+	font-weight:bold;
+  	margin-top:0;
   }
 }
 
@@ -183,6 +184,10 @@ header {
       height: 200px !important;
     }
   }
+	.btn-primary{
+		font-size:14px;
+		font-weight:bold;
+	}
 }
 
 .play-button {
@@ -477,7 +482,7 @@ div[id*='page-']{
 	background: orangered;
 	border: 1px solid rgba(0,0,0,.3);
 	box-shadow: 0px 1px 3px rgba(0,0,0,.2);
-	padding: 10px 15px;
+	padding: 10px 20px;
 	clear: both;
 	span{
 		font-size:12px;
@@ -487,7 +492,7 @@ div[id*='page-']{
  
 div.right_ribbon{
 	color: #fff;
-	right:0;
+	right:5px;
 }
  
 div.right_ribbon h2{
@@ -500,10 +505,10 @@ div.right_ribbon::before{
 	height: 0px;
 	position: absolute;
 	bottom: -10px;
-	right: 5px;
+	right: -1px;
 	content: "";
 	border-bottom: 10px solid transparent;
-	border-left: 10px solid rgb(0, 80, 116);
+	border-left: 10px solid #333;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
