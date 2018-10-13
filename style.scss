@@ -16,6 +16,15 @@
   }
 }
 
+.btn-primary{
+	opacity:0.9;	
+}
+.btn-primary:hover{
+	background:forestgreen;
+	border-color:green;
+	opacity:1;
+}
+
 .row{
   .col-xs-6:nth-child(odd){
     @include mobile{
