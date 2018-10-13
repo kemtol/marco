@@ -471,14 +471,18 @@ div[id*='page-']{
 
 .ribbon{
 	color: #fff;
-	margin: 30px 0 50px;
+	margin: 20px 0;
 	position: absolute;
 	text-transform: uppercase;
-	background: rgb(0, 164, 239);
+	background: orangered;
 	border: 1px solid rgba(0,0,0,.3);
 	box-shadow: 0px 1px 3px rgba(0,0,0,.2);
 	padding: 10px 15px;
 	clear: both;
+	span{
+		font-size:12px;
+		font-weight:bold;
+	}
 }
  
 div.right_ribbon{
@@ -496,7 +500,7 @@ div.right_ribbon::before{
 	height: 0px;
 	position: absolute;
 	bottom: -10px;
-	right: -1px;
+	right: 5px;
 	content: "";
 	border-bottom: 10px solid transparent;
 	border-left: 10px solid rgb(0, 80, 116);
