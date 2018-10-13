@@ -472,7 +472,7 @@ div[id*='page-']{
 .ribbon{
 	color: #fff;
 	margin: 30px 0 50px;
-	position: relative;
+	position: absolute;
 	text-transform: uppercase;
 	background: rgb(0, 164, 239);
 	border: 1px solid rgba(0,0,0,.3);
@@ -482,9 +482,8 @@ div[id*='page-']{
 }
  
 div.right_ribbon{
-	color: #000;
-	margin-right: -10px;
-	float: right;
+	color: #fff;
+	right:0;
 }
  
 div.right_ribbon h2{
@@ -497,27 +496,10 @@ div.right_ribbon::before{
 	height: 0px;
 	position: absolute;
 	bottom: -10px;
-	right: -11px;
+	right: -1px;
 	content: "";
 	border-bottom: 10px solid transparent;
 	border-left: 10px solid rgb(0, 80, 116);
-}
- 
-div.right_ribbon::after{
-	display: block;
-	width: 6px;
-	height: 44px;
-	position: absolute;
-	bottom: 3px;
-	left: -1px;
-	content: "";
-	border: 1px solid rgba(0,0,0,.3);
-	transform: skew(0deg,45deg);
-	-ms-transform: skew(0deg,45deg); /* IE 9 */
-	-webkit-transform: skew(0deg,45deg); /* Safari and Chrome */
-	-o-transform: skew(0deg,45deg); /* Opera */
-	-moz-transform: skew(0deg,45deg); /* Firefox */
-	background: rgb(0, 80, 116);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
