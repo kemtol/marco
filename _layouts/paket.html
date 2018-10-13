@@ -2,7 +2,10 @@
 layout: default
 ---
 
-<div class="container" id="paket-{{page.thispage}}">
+<div class="container" id="paket">
   <h1 class="text-center" >{{ page.title }}</h1>
   {{ content }}
+  {% include hotel.html %}
+  {{ page.maskapai }}
+  {{ page.harga }}
 </div>
