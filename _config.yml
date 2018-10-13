@@ -8,6 +8,9 @@ collections:
   cabang:
     title: Cabang
     output: true
+  hotel:
+    title: Hotel
+    output: true
   paket:
     title: Paket
     output: true
