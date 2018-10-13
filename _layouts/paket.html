@@ -3,9 +3,16 @@ layout: default
 ---
 
 <div class="container" id="paket">
-  <h1 class="text-center" >{{ page.title }}</h1>
-  {{ content }}
-  {% include hotel.html %}
-  {{ page.maskapai }}
-  {{ page.harga }}
+  <div class="row">
+    <div class="col-xs-12 col-md-8">
+      <h1 class="text-center" >{{ page.title }}</h1>
+      {{ content }}
+      {% include hotel.html %}
+      {{ page.maskapai }}
+      {{ page.harga }}
+    </div>
+    <div class="col-xs-12 col-md-8">
+      {% include booking-widget.html %}
+    </div>
+  </div>
 </div>
