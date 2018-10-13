@@ -1,19 +1,40 @@
 ---
 layout: default
 ---
-
+<style>
+  .a1 p:nth-child(1),
+  .a1 p:nth-child(2),
+  .a1-hotel .panel-body img{
+      display:none;
+    }
+  .a2 {
+    
+  }
+</style>
 <div class="container" id="paket">
   <div class="row">
-    <div class="col-xs-12 col-md-8">
+    <div class="col-xs-12">
       <h1 class="text-center" >{{ page.title }}</h1>
-      {{ content }}
-      {% include hotel.html %}
-      {{ page.maskapai }}
     </div>
-    <div class="col-xs-12 col-md-4">
-      {{ page.harga }}
-      {% include booking-widget.html %}
-      <div>
+    <div class="col-xs-12 col-md-8 a1">
+      <div class="a1-content">
+        {{ content }}
+      </div>
+      <div class="a1-hotel">
+        {% include hotel.html %}
+      </div>
+      <div class="a3-maskapai">
+        {{ page.maskapai }}
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-4 a2">
+      <div class="b1 c1">
+        {{ page.harga }}
+      </div>
+      <div class="b1 c2">
+        {% include booking-widget.html %}
+      </div>
+      <div class="b1 c3">
         <h3>BUTUH BANTUAN?</h3>
         {{ site.wa }}
       </div>
