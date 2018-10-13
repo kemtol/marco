@@ -9,7 +9,7 @@ hotel:
   '2': Al Mukhtara
 maskapai: Saudi Airlines
 harga: 21500000
-layout: static
+layout: paket
 ---
 
 ![umrah-paket-hemat.jpg](/uploads/umrah-paket-hemat.jpg)
