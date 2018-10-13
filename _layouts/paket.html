@@ -64,7 +64,8 @@ layout: default
   $(function() {
   var i = 0;
   $("p:nth-child(2) img").each(function( index ) {
-    $('<div class="item"><img src="https://www.marcojatiwarna.com/wp/wp-content/uploads/2018/09/fajar-badea-7-1000x450.jpg"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
+    var img = $(this).attr("src");
+    $('<div class="item"><img src="'+ img +'"><div class="carousel-caption"></div>   </div>').appendTo('.carousel-inner');
     $('<li data-target="#carousel-example-generic" data-slide-to="'+i+'"></li>').appendTo('.carousel-indicators');
     i++;
   });
