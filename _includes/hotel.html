@@ -1,0 +1,6 @@
+{% for hotel in site.hotel %}
+<div class="panel panel-default">
+  <div class="panel-heading">{{ hotel.title }} ({{ hotel.kota }}) <span>{{ hotel.bintang }}</span></div>
+  <div class="panel-body">{{ content }}</div>
+</div>
+{% endfor %}
