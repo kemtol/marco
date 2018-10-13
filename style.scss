@@ -122,7 +122,9 @@ header {
         }
         
         h2{
-          font-size: 32px;font-weight: bold;margin-top: 0;font-family: georgia;
+          font-size: 32px;
+          font-weight: bold;
+          margin-top: 0;
           @include mobile{
             font-size:24px;
             margin:0;
@@ -147,10 +149,11 @@ header {
           }
         }
         .button-primary.cta-home{
-          background: transparent;
+          background: orangered;
           padding: 15px 30px;
           border: 2px solid white;
-          text-shadow: none;  
+          text-shadow: none;
+          font-weight:bold;
         }
       }
     }
@@ -232,6 +235,10 @@ header {
 .tix-point-highlight{
   .point-item{
     a{
+      h3{
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
       .button-primary{
         font-size:14px;
         width:calc(100% - 30px);
