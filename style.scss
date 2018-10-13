@@ -9,6 +9,11 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+#homepage{
+  h2{
+    font-weight:bold
+  }
+}
 
 .row{
   .col-xs-6:nth-child(odd){
@@ -463,6 +468,57 @@ div[id*='page-']{
 .section-features .a1{margin-bottom:40px}
 .section-features .a1 .img-responsive{padding:1rem; background: #eee}
 .section-items a{text-align:center}
+
+.ribbon{
+	color: #fff;
+	margin: 30px 0 50px;
+	position: relative;
+	text-transform: uppercase;
+	background: rgb(0, 164, 239);
+	border: 1px solid rgba(0,0,0,.3);
+	box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+	padding: 10px 15px;
+	clear: both;
+}
+ 
+div.right_ribbon{
+	color: #000;
+	margin-right: -10px;
+	float: right;
+}
+ 
+div.right_ribbon h2{
+	margin: 0 12px;
+}
+ 
+div.right_ribbon::before{
+	display: block;
+	width: 10px;
+	height: 0px;
+	position: absolute;
+	bottom: -10px;
+	right: -11px;
+	content: "";
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid rgb(0, 80, 116);
+}
+ 
+div.right_ribbon::after{
+	display: block;
+	width: 6px;
+	height: 44px;
+	position: absolute;
+	bottom: 3px;
+	left: -1px;
+	content: "";
+	border: 1px solid rgba(0,0,0,.3);
+	transform: skew(0deg,45deg);
+	-ms-transform: skew(0deg,45deg); /* IE 9 */
+	-webkit-transform: skew(0deg,45deg); /* Safari and Chrome */
+	-o-transform: skew(0deg,45deg); /* Opera */
+	-moz-transform: skew(0deg,45deg); /* Firefox */
+	background: rgb(0, 80, 116);
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
