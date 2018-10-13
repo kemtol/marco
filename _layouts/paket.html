@@ -9,10 +9,14 @@ layout: default
       {{ content }}
       {% include hotel.html %}
       {{ page.maskapai }}
-      {{ page.harga }}
     </div>
     <div class="col-xs-12 col-md-4">
+      {{ page.harga }}
       {% include booking-widget.html %}
+      <div>
+        <h3>BUTUH BANTUAN?</h3>
+        {{ site.wa }}
+      </div>
     </div>
   </div>
 </div>
