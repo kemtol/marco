@@ -16,10 +16,10 @@ thispage: layanan
 <div class="container"> 
 {% for layanan in site.paket %}
     <a class="col-xs-12 col-sm-6 layanan" href="" id="{{ layanan.title | replace: ' ', '--' | downcase  }}">
+        {{ layanan.content }}
         <span class="layanan-title">{{ layanan.title }}</span>
         <span class="layanan-harga">{{ layanan.harga }}</span>
         <span class="layanan-durasi">{{ layanan.durasi }}</span>
-        {{ layanan.content }}
     </a>
 {% endfor %}
 </div>
