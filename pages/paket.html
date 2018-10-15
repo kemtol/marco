@@ -12,9 +12,9 @@ thispage: layanan
 <div class="container"> 
 {% for layanan in site.paket %}
     <a class="col-xs-12 col-sm-6 layanan" href="" id="{{ layanan.title | replace:  '  ', '--' }}">
-        <span class="item-title tix-mb-025">{{ layanan.title }}</span>
-        {{ layanan.harga }}
-        {{ layanan.durasi }}
+        <span class="layanan-title">{{ layanan.title }}</span>
+        <span class="layanan-harga">{{ layanan.harga }}</span>
+        <span class="layanan-durasi">{{ layanan.durasi }}</span>
         {{ layanan.content }}
     </a>
 {% endfor %}
