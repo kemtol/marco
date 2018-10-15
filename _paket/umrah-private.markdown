@@ -10,6 +10,7 @@ maskapai: Saudi Airlines
 hotel:
   '1': Movenpick Madinah
   '2': Movenpick Makkah
+durasi: 9
 layout: paket
 ---
 
