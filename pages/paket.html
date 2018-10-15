@@ -12,7 +12,7 @@ thispage: layanan
 <div class="container"> 
 {% for layanan in site.paket %}
     {% assign lid = layanan.title | replace:  "  ", '--' %}
-    <a class="col-xs-12 col-sm-6 layanan" href="" id="">
+    <a class="col-xs-12 col-sm-6 layanan" href="" id="{{ lid }}">
         <span class="item-title tix-mb-025">{{ layanan.title }}</span>
         {{ layanan.harga }}
         {{ layanan.durasi }}
