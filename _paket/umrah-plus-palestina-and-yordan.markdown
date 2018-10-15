@@ -12,6 +12,7 @@ hotel:
   '2': Tilal Almadina
   '3': Makarem Ajyad
   '4': Al Rawda Al Alqeeq
+durasi: 15
 layout: paket
 ---
 
