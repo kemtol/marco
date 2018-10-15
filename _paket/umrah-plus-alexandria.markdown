@@ -8,11 +8,15 @@ categories:
 harga: 32900000
 maskapai: Saudi Airlines
 hotel:
-- Grand Pyramids
-- Makarem Ajyad
-- Al Rawda Al Aqeeq
+  '1': Grand Pyramids
+  '2': Makarem Ajyad
+  '3': Al Rawda Al Aqeeq
 layout: paket
 ---
+
+![paket-umrah-murah-alexandria.jpg](/uploads/paket-umrah-murah-alexandria.jpg)
+
+![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![liburan4.jpg](/uploads/liburan4.jpg)
 
 1. Jakarta – Jeddah
 2. Jeddah – Cairo
