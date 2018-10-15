@@ -19,27 +19,15 @@ layout: paket
 ![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![liburan4.jpg](/uploads/liburan4.jpg)
 
 1. Jakarta – Jeddah
-
 2. Jeddah – Istanbul
-
 3. Istanbul – Bursa
-
 4. Istanbul
-
 5. Istanbul – Madinah
-
 6. Madinah
-
 7. Madinah
-
 8. Madinah – Mekkah
-
 9. Mekkah
-
 10. Mekkah
-
 11. Mekkah
-
 12. Mekkah – Jeddah
-
 13. Jeddah – Jakarta
