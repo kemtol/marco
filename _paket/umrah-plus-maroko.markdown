@@ -8,6 +8,7 @@ categories:
 harga: 35200000
 maskapai: Saudi Airlines
 hotel: 
+durasi: 13
 layout: paket
 ---
 
