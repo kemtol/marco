@@ -19,7 +19,10 @@ thispage: layanan
     }
     
     .layanan > p img{
-        width:100%;
+        position: relative;
+        top: 125px;
+        width: 100%;
+        transform: translateY(-50%);
     }
     
     .layanan span{
@@ -28,6 +31,8 @@ thispage: layanan
         display:block;
     }
 </style>
+<h1>Layanan Paket Umrah MARCO Tour & Travel</h1>
+<hr>
 <div class="container"> 
 {% for layanan in site.paket %}
     <a class="col-xs-12 col-sm-6 layanan" href="" id="{{ layanan.title | replace: ' ', '--' | downcase  }}">
