@@ -6,18 +6,19 @@ thispage: layanan
 ---
 
 <style>
-    .tix-point-highlight p{padding:0;margin-botttom:0}
+    .tix-point-highlight p{padding:0;margin-bottom:0}
     .layanan p,
     .layanan ol{
         display:none;
     }
     .layanan{
-        height: 250px;
         overflow: hidden;
         margin-bottom: 30px;
         position:relative;
+        display:block;
     }
     .layanan > p:nth-child(1){
+        height: 250px;
         display:block;
         overflow:hidden;
     }
@@ -47,12 +48,13 @@ thispage: layanan
     {% for layanan in site.paket %}
         <div class="col-xs-6 col-md-6"id=" {{ layanan.title | replace: ' ', '--' | downcase  }}">
             <div class="point-item">
-                <a class="layanan" href="">
+                <a class="layanan" href="{{base.url}}{{layanan.permalink}}">
                     {{ layanan.content }}
                     <div class="ribbon right_ribbon"><span>{{ layanan.durasi }} Hari</span></div>
                     <h4>{{ layanan.title }}</h4>
                     <h3>{{ layanan.harga }}</h3>
                     <h5>{{ layanan.maskapai }}</h5>
+                    <span class="button-primary">BOOK</span>
                 </a>
             </div>
         </div>
