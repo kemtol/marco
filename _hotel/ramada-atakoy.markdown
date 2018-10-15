@@ -7,12 +7,12 @@ kota: istanbul
 layout: static
 ---
 
-Located in Atakoy district, Ramada Hotel & Suites Istanbul is just 8 km from Ataturk Airport and CNR Expo Centre. The hotel offers modern rooms with sea or city views and free private parking on site.
+Berlokasi di kabupaten Atakoy, Ramada Hotel & Suites Istanbul hanya berjarak 8 km dari Ataturk Airport dan Central Expo CNR.Hotel menyediakan beberapa kamar modern dengan pemandangan laut dan kota dan tempat bebas parkir. 
 
-Featuring carpeted floors, the air-conditioned rooms of Ramada Hotel & Suites Istanbul – Atakoy are tastefully decorated in soft colours. They all include a flat-screen TV with satellite channels, electric kettle and free Wi-Fi. Some rooms also offer a spa bath.
+Dengan lantai beralaskan karpet, ruangan ber-AC di Ramada Hotel & Suites Istanbul – Atakoy berdekorasi warna yang tidak sembarangan. Semua itu termasuk dengan TV berlayar datar dengan chanel satelit, ketel listrik dan WiFi gratis. Beberapa ruangan juga tersedia untuk mandi spa.
 
-Daily breakfast is served in open buffet style. The à la carte restaurant offers selected dishes from international cuisine. You can also enjoy drinks and light snacks at the Lobby Lounge Bar during the day.
+Sarapan pagi siap tersedia dalam gaya prasmanan. Restoran A la Carte menawarkan pilihan makanan internasional. Anda juga dapat menikmati minuman dan snack ringan di Lobby Lounge Bar pada saat siang hari.
 
-Guests can work out in the fitness centre and relax in the Turkish bath or sauna. Massage facilities and an indoor pool are available.
+Para tamu dapat menikmati fasilitas fitness dan bersantai di sauna atau tempat pemandian Turkish. Fasilitas pijat dan kolam dalam ruangan pun tersedia.
 
-Carousel and Galleria shopping centres are only a 5-minute walk from the hotel. Bakirkoy Train Station is 600 metres away.
+Tempat perbelanjaan Carousel dan Galleria hanya 5 menit berjalan dari hotel. Stasiun Kereta Bakirkoy berjarak sekitar 600 meter.
