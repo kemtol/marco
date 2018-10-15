@@ -7,15 +7,16 @@ thispage: layanan
 
 <style>
     p,ol{display:none};
-    p:nth-child(1)(display:block);
+    p:nth-child(1){display:block};
 </style>
 <div class="container"> 
 {% for layanan in site.paket %}
-<a class="col-xs-12 col-sm-6" href="">
-    <span class="item-title tix-mb-025">{{ layanan.title }}</span>
-    {{ layanan.harga }}
-    {{ layanan.durasi }}
-    {{ layanan.content }}
-</a>
+    {% assign lid = layanan.title | replace:  "  ", '--' %}
+    <a class="col-xs-12 col-sm-6 layanan" href="" id="">
+        <span class="item-title tix-mb-025">{{ layanan.title }}</span>
+        {{ layanan.harga }}
+        {{ layanan.durasi }}
+        {{ layanan.content }}
+    </a>
 {% endfor %}
 </div>
