@@ -14,3 +14,6 @@ durasi: 9
 layout: paket
 ---
 
+![umroh private.jpg](/uploads/umroh%20private.jpg)
+
+![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![liburan4.jpg](/uploads/liburan4.jpg)
