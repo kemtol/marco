@@ -6,8 +6,12 @@ thispage: layanan
 ---
 
 <style>
-    p,ol{display:none};
-    .layanan p:nth-child(1){display:block};
+    p,ol{
+        display:none
+    };
+    .layanan > p:nth-child(1){
+        display:block;
+    }
 </style>
 <div class="container"> 
 {% for layanan in site.paket %}
