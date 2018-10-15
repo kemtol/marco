@@ -1,6 +1,7 @@
 ---
 title: Al Mukhtara
 date: 2018-10-13 09:41:00 Z
+permalink: "/hotel/al-mukhtara.html"
 bintang: 4
 kota: Madinah
 layout: static
