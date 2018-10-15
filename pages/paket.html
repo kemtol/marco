@@ -1,1 +1,8 @@
-
+{% for layanan in site.paket %}
+<a class="col-xs-12 col-sm-6" href="">
+    <span class="item-title tix-mb-025">{{ layanan.title }}</span>
+    {{ layanan.harga }}
+    {{ layanan.durasi }}
+    {{ content }}
+</a>
+{% endfor %}
