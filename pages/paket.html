@@ -45,13 +45,15 @@ thispage: layanan
     <div class="row tix-point-highlight">
     {% for layanan in site.paket %}
         <div class="col-xs-6 col-md-6"id=" {{ layanan.title | replace: ' ', '--' | downcase  }}">
-            <a class="layanan" href="">
-                {{ layanan.content }}
-                <div class="ribbon right_ribbon"><span>{{ layanan.durasi }} Hari</span></div>
-                <h4>{{ layanan.title }}</h4>
-                <h3>{{ layanan.harga }}</h3>
-                <h5>{{ layanan.maskapai }}</h5>
-            </a>
+            <div class="point-item">
+                <a class="layanan" href="">
+                    {{ layanan.content }}
+                    <div class="ribbon right_ribbon"><span>{{ layanan.durasi }} Hari</span></div>
+                    <h4>{{ layanan.title }}</h4>
+                    <h3>{{ layanan.harga }}</h3>
+                    <h5>{{ layanan.maskapai }}</h5>
+                </a>
+            </div>
         </div>
     {% endfor %}
     </div>
