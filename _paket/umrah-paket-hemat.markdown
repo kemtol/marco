@@ -9,6 +9,7 @@ hotel:
   '2': Al Mukhtara
 maskapai: Saudi Airlines
 harga: 21500000
+durasi: 9
 layout: paket
 ---
 
