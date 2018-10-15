@@ -7,8 +7,8 @@ kota: amman
 layout: static
 ---
 
-Tilal Almadina Hotel & Suites offers accommodation in Amman. Al Hussein National Park is 2.7 km away. The property is only a few steps away from a great variety of shopping splendors including restaurants and groceries. By car guests can reach most of Amman’s attraction sites like Downtown, malls and touristic sites. Free WiFi is featured.
+Tilal Almadina Hotel & Suites menawarkan akomodasi di Amman. Hanya berjarak sekitar 2.7 km untuk ke taman nasional Al Hussein. Tempat ini memiliki beberapa langkah saja dari pusat perbelanjaan termasuk restoran dan beberapa bahan makanan. Dengan mobil yang disediakan, menjelajahi sebagian besar dari pusat atraksi Amman seperti Downtown, beberapa mall dan situs turis. Tersedia WiFi gratis. 
 
-The accommodation is air conditioned and is fitted with a flat-screen TV with satellite channels. Some units feature a seating area and/or balcony. All units include a kitchenette fitted with a microwave and fridge. A stove top and kettle are also available. Every unit has a private bathroom, slippers, and free toiletries. Towels and bed linen are offered.
+Fasilitas akomodasi yang ber-AC dan dilengkapi dengan TV layar datar dengan beberapa chanel satelit. Beberapa fitur unit yaitu area untuk duduk dan balkon. Semua unit termasuk peralatan dapur lengkap dengan microwave dan kulkas. Kompor dan ketel juga tersedia. Setiap unit mempunyai kamar mandi sendiri, sendal, dan toilet umum. Handuk dan sprai tersediakan.
 
-Tilal Almadina Hotel & Suites also includes a terrace. Guests can enjoy a meal at the on-site restaurant. Royal Automobiles Museum is 2.9 km from Tilal Almadina Hotel & Suites.
+Tilal Almadina Hotel & Suites juga termasuk teras yang cukup luas. Para tamu bisa menikmati santapan di restoran terdekat.Royal Automobiles Museum hanya berjarak 2.9 km dari Tilal Almadina Hotel & Suites.
