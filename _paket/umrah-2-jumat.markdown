@@ -9,6 +9,7 @@ maskapai: Saudi Airlines
 hotel:
   '1': Makarem Ajyad
   '2': Al Rawda Al Aqeeq
+durasi: 13
 layout: paket
 ---
 
