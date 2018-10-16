@@ -3,7 +3,7 @@ title: Grand Pyramids
 date: 2018-10-15 08:21:00 Z
 permalink: "/hotel/grand-pyramids.html"
 bintang: 4
-kota: alexandria
+kota: Alexandria
 layout: static
 ---
 
