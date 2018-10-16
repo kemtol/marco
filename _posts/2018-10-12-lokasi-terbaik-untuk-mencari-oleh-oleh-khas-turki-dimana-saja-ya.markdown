@@ -16,7 +16,7 @@ Berikut adalah beberapa lokasi yang dianjurkan oleh para wisatawan untuk mencari
 
 ![bazaar1.jpg](/uploads/bazaar1.jpg)
 
-Salah satu lokasi penting yang ada di kota Turki untuk dijelajahi. Lokasi yang tepatnya di Istanbul, Beyazit Mh., 34126 Fatih, ternyata terkenal sudah berumur sangat tua sekitar tahun 1445, yang didirikan oleh Sultan Mahmed II. Sekitar 4000 penjual yang ikut serta untuk meramaikan bazaar ini dan menyediakan beberapa aneka jenis kebutuhan traveler yang cukup lengkap. Jenis barang yang cukup variatif ternilai memiliki kualitas yang baik ini menawarkan dengan harga yang  terjangkau.
+Salah satu lokasi penting yang ada di kota Turki untuk dijelajahi. Lokasi yang tepatnya di Istanbul, Beyazit Mh., 34126 Fatih, ternyata terkenal sudah berumur sangat tua sekitar tahun 1445, yang didirikan oleh Sultan Mahmed II. Sekitar 4000 penjual yang ikut serta untuk meramaikan bazaar ini dan menyediakan beberapa aneka jenis kebutuhan traveler yang cukup lengkap. Jenis barang yang cukup variatif ternilai memiliki kualitas yang baik ini menawarkan dengan harga yang terjangkau.
 
 ## Spice Bazaar
 
