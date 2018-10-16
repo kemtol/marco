@@ -3,7 +3,7 @@ title: Jerusalem Gold
 date: 2018-10-15 08:25:00 Z
 permalink: "/hotel/jerusalem-gold.html"
 bintang: 4
-kota: al-quds
+kota: Al-Quds
 layout: static
 ---
 
