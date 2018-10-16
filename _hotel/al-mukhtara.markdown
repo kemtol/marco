@@ -7,7 +7,7 @@ kota: Madinah
 layout: static
 ---
 
-Hanya Al Mukhtara berjarak 200 meter dari Masjid Al Nabawi yang suci, Al Mukhtara International Hotel menawarkan kamar-kamar ber-AC.Hotel ini memiliki meja depan 24 jam dan lift. Layanan menyetrika dan binatu juga tersedia.
+Hanya Al Mukhtara berjarak 200 meter dari Masjid Al Nabawi yang suci, Al Mukhtara International Hotel menawarkan kamar-kamar ber-AC. Hotel ini memiliki meja depan 24 jam dan lift. Layanan menyetrika dan binatu juga tersedia.
 
 Kamar-kamar berperabotan simpel didekorasi dengan warna-warna hangat dan dilengkapi dengan lantai berkarpet. Setiap kamarnya menawarkan TV satelit, minibar, dan lemari. Perlengkapan mandi gratis disediakan di kamar mandi.
 
