@@ -19,7 +19,7 @@ layout: paket
 2. Jeddah – Madinah
 3. Madinah
 4. Madinah
-5. 1. Madinah
+5. Madinah
 6. Madinah
 7. Madinah – Mekkah
 8. Mekkah
