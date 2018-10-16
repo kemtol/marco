@@ -3,7 +3,7 @@ title: Tilal Almadina
 date: 2018-10-15 08:27:00 Z
 permalink: "/hotel/tilal-almadina.html"
 bintang: 4
-kota: amman
+kota: Amman
 layout: static
 ---
 
