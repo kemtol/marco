@@ -3,7 +3,7 @@ title: Ramada Atakoy
 date: 2018-10-15 08:30:00 Z
 permalink: "/hotel/ramada-atakoy.html"
 bintang: 5
-kota: istanbul
+kota: Istanbul
 layout: static
 ---
 
