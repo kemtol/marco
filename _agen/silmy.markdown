@@ -3,7 +3,7 @@ title: Silmy
 date: 2018-10-12 04:05:00 Z
 permalink: "/agen/silmy.html"
 agenwa: 628111122480
-agenalamat: Jl. Kol. Ahmad Syam Pandu Raya Tanah Baru Bogor
+agenalamat: Bogor
 layout: static
 ---
 
