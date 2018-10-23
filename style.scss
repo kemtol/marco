@@ -584,6 +584,11 @@ div[id*='page-']{
 			display:none;
 		}
 	}
+	.a1-hotel{
+		p img{
+			display:none;
+		}
+	}
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
