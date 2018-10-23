@@ -38,7 +38,7 @@ thispage: tour
         <h2 class="text-center">MARCO Tour, Solusi Cerdas untuk Dapatkan Harga Tour Murah</h2>
         <p class="text-center mb-40">Wisata syariah? travel muslim? atau apapun keperluan berwisata islami anda konsultasikan bersama team MARCO tour and travel islami</p>
         <div class="row tix-point-highlight">
-            {% for layanan in site.paket %}
+            {% for layanan in site.paket.categories.tour %}
                 <div class="col-xs-12 col-sm-6"id=" {{ layanan.title | replace: ' ', '--' | downcase  }}">
                     <div class="ribbon right_ribbon"><span>{{ layanan.durasi }} Hari</span></div>
                     <div class="point-item">
