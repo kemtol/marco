@@ -9,6 +9,52 @@
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
+/*********************
+* RIBBON
+**********************/
+
+.ribbon{
+	color: #fff;
+	margin: 20px 0;
+	position: absolute;
+	text-transform: uppercase;
+	background: orangered;
+	border: 1px solid rgba(0,0,0,.3);
+	box-shadow: 0px 1px 3px rgba(0,0,0,.2);
+	padding: 10px 20px;
+	clear: both;
+	z-index:1;
+	span{
+		font-size:12px;
+		font-weight:bold;
+	}
+}
+ 
+div.right_ribbon{
+	color: #fff;
+	right:5px;
+}
+ 
+div.right_ribbon h2{
+	margin: 0 12px;
+}
+ 
+div.right_ribbon::before{
+	display: block;
+	width: 10px;
+	height: 0px;
+	position: absolute;
+	bottom: -10px;
+	right: -1px;
+	content: "";
+	border-bottom: 10px solid transparent;
+	border-left: 10px solid #333;
+}
+
+/*********************
+* HOMEPAGE
+**********************/
+
 #homepage{
   h2{
 	font-weight:bold;
@@ -495,42 +541,37 @@ div[id*='page-']{
 .section-features .a1 .img-responsive{padding:1rem; background: #eee}
 .section-items a{text-align:center}
 
-.ribbon{
-	color: #fff;
-	margin: 20px 0;
-	position: absolute;
-	text-transform: uppercase;
-	background: orangered;
-	border: 1px solid rgba(0,0,0,.3);
-	box-shadow: 0px 1px 3px rgba(0,0,0,.2);
-	padding: 10px 20px;
-	clear: both;
-	z-index:1;
-	span{
-		font-size:12px;
-		font-weight:bold;
-	}
-}
- 
-div.right_ribbon{
-	color: #fff;
-	right:5px;
-}
- 
-div.right_ribbon h2{
-	margin: 0 12px;
-}
- 
-div.right_ribbon::before{
-	display: block;
-	width: 10px;
-	height: 0px;
-	position: absolute;
-	bottom: -10px;
-	right: -1px;
-	content: "";
-	border-bottom: 10px solid transparent;
-	border-left: 10px solid #333;
+/*********************
+* override layanan page
+**********************/
+
+#page-tour,
+#page-layanan{
+    .tix-point-highlight p{padding:0;margin-bottom:0}
+    .layanan{
+        overflow: hidden;
+        position:relative;
+        display:block;
+				p,ol{
+					display:none;
+				}
+				h5{
+					margin-bottom: 40px;
+				}
+    }
+    .layanan > p:nth-child(1){
+        height: 250px;
+        margin-bottom:20px;
+        display:block;
+        overflow:hidden;
+    }
+    
+    .layanan > p img{
+        position: relative;
+        top: 125px;
+        width: 100%;
+        transform: translateY(-50%);
+    }
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
