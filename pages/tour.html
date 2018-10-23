@@ -4,10 +4,60 @@ permalink: "/tour-travel-syariah/"
 layout: page
 thispage: tour
 ---
-
+<style>
+    .tix-point-highlight p{padding:0;margin-bottom:0}
+    .layanan p,
+    .layanan ol{
+        display:none;
+    }
+    .layanan{
+        overflow: hidden;
+        position:relative;
+        display:block;
+    }
+    .layanan > p:nth-child(1){
+        height: 250px;
+        margin-bottom:20px;
+        display:block;
+        overflow:hidden;
+    }
+    
+    .layanan > p img{
+        position: relative;
+        top: 125px;
+        width: 100%;
+        transform: translateY(-50%);
+    }
+    .layanan h5{
+        margin-bottom: 40px;
+    }
+</style>
 <div class="section-features">
     <div class="tix-column-nowrap tix-flex-center container tix-border-bottom tix-py-225">
         <h2 class="text-center">MARCO Tour, Solusi Cerdas untuk Dapatkan Harga Tour Murah</h2>
+        <p class="text-center mb-40">Wisata syariah? travel muslim? atau apapun keperluan berwisata islami anda konsultasikan bersama team MARCO tour and travel islami</p>
+        <div class="row">
+            {% for layanan in site.paket %}
+                <div class="col-xs-12 col-sm-6"id=" {{ layanan.title | replace: ' ', '--' | downcase  }}">
+                    <div class="ribbon right_ribbon"><span>{{ layanan.durasi }} Hari</span></div>
+                    <div class="point-item">
+                        <a class="layanan" href="{{base.url}}{{layanan.permalink}}">
+                            {{ layanan.content }}
+                            <h4>{{ layanan.title }}</h4>
+                            <h3>{{ layanan.harga }}</h3>
+                            <h5>{{ layanan.maskapai }}</h5>
+                            <span class="button-primary">BOOK</span>
+                        </a>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<hr>
+<div class="section-features">
+    <div class="tix-column-nowrap tix-flex-center container tix-border-bottom tix-py-225">
+        <h2 class="text-center">Mengapa MARCO Tour and Travel?</h2>
         <p class="text-center mb-40">MARCO tour merupakan pionir tour syariah di Indonesia, pilihan terbaik Anda untuk melaksanakan perjalanan dengan murah dan terpercaya.</p>
         <div class="row">
             <div class="a1 col-md-4">
