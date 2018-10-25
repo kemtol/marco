@@ -8,7 +8,7 @@ hotel:
   '1': Al Fajr Al Badea
   '2': Al Mukhtara
 maskapai: Saudi Airlines
-harga: 21500000
+harga: 24500000
 durasi: 9
 layout: paket
 ---
