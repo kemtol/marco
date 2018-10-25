@@ -25183,7 +25183,8 @@ h3.h3-bold {
 
 .tix-point-highlight .point-item a h4 {
     font-size: 14px;
-    margin: 0 0 6px 0
+    margin: 0 0 6px 0;
+    font-weight:bold;
 }
 
 .tix-point-highlight .point-item a h3 {
@@ -25209,7 +25210,7 @@ h3.h3-bold {
 }
 
 .home-last-feature .fitur-hotel-txt {
-    font-size: 25px;
+    font-size: 21px;
     margin: 0 0 20px 0;
     font-weight: 500;
     line-height: 1.1;
