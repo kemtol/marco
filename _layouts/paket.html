@@ -27,29 +27,29 @@ layout: default
         </a>
       </div>
       <div class="a1-content">
-        <h2>Rencana perjalanan anda:</h2>
+        <h2>Rencana perjalanan anda</h2>
         {{ content }}
       </div>
       <div class="a1-hotel">
-        <h2>Hotel anda:</h2>
+        <h2>Hotel anda</h2>
         {% include hotel.html %}
       </div>
     </div>
     <div class="col-xs-12 col-md-4 a2">
       <div class="b1 c0">
-        <h2>Maskapai:</h2>
+        <h2>Maskapai</h2>
         {{ page.maskapai }}
       </div>
       <div class="b1 c1">
-        <h2>Harga:</h2>
-        {{ page.harga }}
+        <h2>Harga</h2>
+        Rp {{ page.harga }}
       </div>
       <div class="b1 c2">
-        <h2>Booking:</h2>
+        <h2>Booking</h2>
         {% include booking-widget.html %}
       </div>
       <div class="b1 c3">
-        <h2>BUTUH BANTUAN?</h2>
+        <h2>Butuh bantuan?</h2>
         {{ site.wa }}
       </div>
     </div>
