@@ -20,10 +20,11 @@ thispage: layanan
                 <a class="layanan" href="{{base.url}}{{layanan.permalink}}">
                     {{ layanan.content }}
                     <h4>{{ layanan.title }}</h4>
-                    {% if layanan.harga %}
-                        <h3>Rp {{ layanan.harga }}</h3>
-                    {% else %}
+                    {% if layanan.hargausd %}
                         <h3>{{ layanan.hargausd }} USD</h3>
+                    {% else %}
+
+                        <h3>Rp {{ layanan.harga }}</h3>
                     {% endif %}
                     <h5>{{ layanan.maskapai }}</h5>
                     <span class="button-primary">BOOK</span>
