@@ -21,7 +21,7 @@ thispage: layanan
                     {{ layanan.content }}
                     <h4>{{ layanan.title }}</h4>
                     {% if layanan.hargausd %}
-                        <h3>Rp {{ layanan.hargausd }}</h3>
+                        <h3>{{ layanan.hargausd }} USD</h3>
                     {% elseif %}
                         <h3>Rp {{ layanan.harga }}</h3>
                     {% endif %}
