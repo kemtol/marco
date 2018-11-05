@@ -6,7 +6,7 @@
             {% for kacab in site.cabang %}
             <a class="col-xs-12 col-sm-4" href="https://api.whatsapp.com/send?phone={{ kacab.cabangwa }}&text=Assalamualaikum%20Marco%20Umrah">
                 <span class="item-title tix-mb-025">{{ kacab.title }}</span>
-                <span class="item-desc"><i class="fab fa-whatsapp"></i> {{ kacab.cabangwa }}<small style="text-transform:capitalizes">{{ kacab.cabangalamat }}</small></span>
+                <span class="item-desc"><i class="fab fa-whatsapp"></i> {{ kacab.cabangwa }}<small style="text-transform:uppercase">{{ kacab.cabangalamat }}</small></span>
             </a>
             {% endfor %}
         </div>
