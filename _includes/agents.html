@@ -6,7 +6,7 @@
             {% for agen in site.agen %}
             <a class="col-xs-12 col-sm-6  col-md-4" href="">
                 <span class="item-title tix-mb-025">{{ agen.title }}</span>
-                <span class="item-desc">{{ agen.agenwa }}<small style="text-transform:uppercase">{{ agen.agenalamat }}</small></span>
+                <span class="item-desc">{{ agen.agenwa }}<small>{{ agen.agenalamat | capitalize }}</small></span>
             </a>
             {% endfor %}
         </div>
