@@ -5,6 +5,7 @@ permalink: "/paket/haji-family-room.html"
 categories:
 - haji
 hargausd: 17500
+roompax: 4
 layout: paket
 ---
 
