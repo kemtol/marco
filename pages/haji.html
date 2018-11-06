@@ -21,7 +21,6 @@ thispage: haji
                 
                 {% assign layanans = site.paket | where: 'categories', 'haji' %}
                 {% for layanan in layanans %}
-                
                     <div class="col-xs-12 col-sm-4" id=" {{ layanan.title | replace: ' ', '--' | downcase  }}>
                         <div class="point-item">
                             <a href="">
@@ -37,7 +36,6 @@ thispage: haji
                             </a>
                         </div>
                     </div>
-                
                 {% endfor %}
                 
                 <!--<div class="col-xs-12 col-sm-4">
