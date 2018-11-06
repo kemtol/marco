@@ -13,7 +13,7 @@ thispage: layanan
 </div>
 <div class="container"> 
     <div class="row tix-point-highlight">
-    {% assign layanans = site.paket | where: 'category', 'umrah' %}
+    {% assign layanans = site.paket | where: 'categories', 'umrah' %}
     {% for layanan in layanans %}
         <div class="col-xs-12 col-sm-6"id=" {{ layanan.title | replace: ' ', '--' | downcase  }}">
             <div class="ribbon right_ribbon"><span>{{ layanan.durasi }} Hari</span></div>
