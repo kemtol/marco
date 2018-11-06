@@ -5,6 +5,7 @@ permalink: "/paket/haji-double-room.html"
 categories:
 - haji
 hargausd: 20500
+paxroom: 2
 layout: paket
 ---
 
