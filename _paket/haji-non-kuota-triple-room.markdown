@@ -5,6 +5,7 @@ permalink: "/paket/haji-triple-room.html"
 categories:
 - haji
 hargausd: 19000
+paxroom: 3
 layout: paket
 ---
 
