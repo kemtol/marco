@@ -20,7 +20,6 @@ thispage: haji
             <div class="tix-point-highlight col-xs-12" style="padding:0;">
                 {% assign layanans = site.paket | where: 'categories', 'haji' | sort:"date" | reverse %}
                 {% for layanan in layanans %}
-                    <style>.tix-point-highlight p{padding:0;margin-bottom:0}</style>
                     <div class="col-xs-12 col-sm-4" id="{{ layanan.title | replace: ' ', '--' | downcase  }}">
                         <div class="point-item">
                             <a href="{{ layanan.permalink }}">
