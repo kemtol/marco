@@ -18,8 +18,25 @@ thispage: haji
             <h2 class="text-center">Paket Haji Furoda Non Kuota 2019</h2>
             <p class="text-center mb-40">MARCO Haji menawarkan paket haji non kuota tanpa antrian langsung menuju keberangkatan.</p>
             <div class="tix-point-highlight col-xs-12" style="padding:0;">
-                
-                <div class="col-xs-12 col-sm-4">
+                {% assign layanans = site.paket | where: 'categories', 'haji' | sort:"date" | reverse %}
+                {% for layanan in layanans %}
+                    <div class="col-xs-12 col-sm-4" id="{{ layanan.title | replace: ' ', '--' | downcase  }}">
+                        <div class="point-item">
+                            <a href="{{ layanan.permalink }}">
+                                {{ layanan.content }}
+                                <h4>{{ layanan.title }}</h4>
+                                {% if layanan.hargausd %}
+                                    <h3>{{ layanan.hargausd }} USD</h3>
+                                {% else %}
+                                    <h3>Rp {{ layanan.harga }}</h3>
+                                {% endif %}
+                                <p>Satu kamar {{ layanan.paxroom }} orang</p>
+                                <span class="button-primary">BOOK</span>
+                            </a>
+                        </div>
+                    </div>
+                {% endfor %}
+                <!--<div class="col-xs-12 col-sm-4">
                     <div class="point-item">
                         <a href="">
                             <img src="{{site.baseurl}}/uploads/paket-haji-non-kuota-family-room.jpeg">
@@ -30,6 +47,8 @@ thispage: haji
                         </a>
                     </div>
                 </div>
+                
+                
                 <div class="col-xs-12 col-sm-4">
                     <div class="point-item">
                         <a href="">
@@ -41,6 +60,9 @@ thispage: haji
                         </a>
                     </div>
                 </div>
+                
+                
+                
                 <div class="col-xs-12 col-sm-4">
                     <div class="point-item">
                         <a href="">
@@ -51,7 +73,7 @@ thispage: haji
                             <span class="button-primary">BOOK</span>
                         </a>
                     </div>
-                </div>
+                </div>-->
             </div>
             <h2 class="text-center">Fasilitas Utama</h2>
             <p class="text-center mb-40">MARCO haji selalu memberikan yang terbaik di kelasnya</p>
