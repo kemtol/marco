@@ -655,6 +655,22 @@ div[id*='page-']{
 	}
 }
 
+/*********************
+* override page haji
+**********************/
+
+#page-haji{
+	.tix-point-highlight {
+		.point-item{
+			a{
+				p:nth-child(1){
+					padding: 0;
+					margin-bottom: 0;
+				}
+			}
+		}
+	}
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
