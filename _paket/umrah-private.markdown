@@ -8,8 +8,8 @@ categories:
 harga: 36000000
 maskapai: Saudi Airlines
 hotel:
-  '1': Movenpick Madinah
-  '2': Movenpick Makkah
+- Movenpick Madinah
+- Movenpick Makkah
 durasi: 9
 layout: paket
 ---
