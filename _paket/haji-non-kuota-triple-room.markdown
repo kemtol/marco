@@ -8,10 +8,8 @@ hargausd: 19000
 paxroom: 3
 maskapai: Saudi Airlines
 hotel:
-  '1': Jerusalem Gold
-  '2': Tilal Almadina
-  '3': Makarem Ajyad
-  '4': Al Rawda Al Alqeeq
+- Makarem Ajyad
+- Al Rawda Al Aqeeq
 durasi: 15
 layout: paket
 ---
