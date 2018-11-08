@@ -8,9 +8,9 @@ categories:
 harga: 34400000
 maskapai: Saudi Airlines
 hotel:
-  '1': Ramada Atakoy
-  '2': Makarem Ajyad
-  '3': Al Rawda Al Aqeeq
+- Ramada Atakoy
+- Makarem Ajyad
+- Al Rawda Al Aqeeq
 durasi: 13
 layout: paket
 ---
