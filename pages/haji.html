@@ -23,7 +23,9 @@ thispage: haji
                     <div class="col-xs-12 col-sm-4" id="{{ layanan.title | replace: ' ', '--' | downcase  }}">
                         <div class="point-item">
                             <a href="{{ layanan.permalink }}">
-                                {{ layanan.content }}
+                                <div class="c1">
+                                    {{ layanan.content }}
+                                </div>
                                 <h4>{{ layanan.title }}</h4>
                                 {% if layanan.hargausd %}
                                     <h3>{{ layanan.hargausd }} USD</h3>
