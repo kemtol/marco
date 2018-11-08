@@ -506,12 +506,16 @@ div[id*='page-']{
         font-size:16px;
         margin-top:5px;
         small{
-          font-size:13px;
-          display:block;
-          color:#666;
-          width:60%;
-          margin:auto;
-          margin-top:5px;
+		font-size:13px;
+		display:block;
+		color:#666;
+		width:60%;
+		margin:auto;
+		margin-top:5px;
+		text-transofrm:capitalize;
+		@include mobile{
+			width:100%;
+		}
         }
       }
     }
