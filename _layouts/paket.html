@@ -42,7 +42,11 @@ layout: default
       </div>
       <div class="b1 c1 bharga">
         <h2>Harga</h2>
-        <span>Rp {{ page.harga }}</span> <small>/ jamaah</small>
+        {% if page.hargausd %}
+          <span>{{ page.hargausd }} USD</span> <small>/ jamaah</small>
+        {% else %}
+          <span>Rp {{ page.harga }}</span> <small>/ jamaah</small>
+        {% endif %}
       </div>
       <div class="b1 c2">
         <h2>Booking</h2>
