@@ -646,6 +646,12 @@ div[id*='page-']{
 			transform: translate(-50%,-50%);
 		}
 	}
+	
+	.a1-hotel{
+		.panel{
+			display:none;
+		}
+	}
 }
 
 .panel{
