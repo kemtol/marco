@@ -8,10 +8,10 @@ categories:
 harga: 41600000
 maskapai: Saudi Airlines
 hotel:
-  '1': Jerusalem Gold
-  '2': Tilal Almadina
-  '3': Makarem Ajyad
-  '4': Al Rawda Al Alqeeq
+- Jerusalem Gold
+- Tilal Almadina
+- Makarem Ajyad
+- Al Rawda Al Aqeeq
 durasi: 15
 layout: paket
 ---
