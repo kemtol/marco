@@ -8,9 +8,9 @@ categories:
 harga: 32900000
 maskapai: Saudi Airlines
 hotel:
-  '1': Grand Pyramids
-  '2': Makarem Ajyad
-  '3': Al Rawda Al Aqeeq
+- Grand Pyramids
+- Makarem Ajyad
+- Al Rawda Al Aqeeq
 durasi: 13
 layout: paket
 ---
