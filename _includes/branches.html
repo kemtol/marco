@@ -4,7 +4,7 @@
         <p class="text-center mb-40">Daftar kantor cabang kami dimana anda dapat membeli paket haji Khusus furoda non kuota:</p>
         <div class="tix-row">
             {% for kacab in site.cabang %}
-            <a class="col-xs-12 col-sm-4" href="https://api.whatsapp.com/send?phone={{ kacab.cabangwa }}&text=Assalamualaikum%20Marco%20Umrah">
+            <a class="col-xs-6 col-sm-4" href="https://api.whatsapp.com/send?phone={{ kacab.cabangwa }}&text=Assalamualaikum%20Marco%20Umrah">
                 <span class="item-title tix-mb-025">{{ kacab.title }}</span>
                 <span class="item-desc"><i class="fab fa-whatsapp"></i> {{ kacab.cabangwa }}<small>{{ kacab.cabangalamat | capitalize }}</small></span>
             </a>
