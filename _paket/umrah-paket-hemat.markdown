@@ -5,8 +5,8 @@ permalink: "/paket/umrah-paket-hemat.html"
 categories:
 - umrah
 hotel:
-  '1': Al Fajr Al Badea
-  '2': Al Mukhtara
+- Al Fajr Al Badea
+- Al Mukhtara
 maskapai: Saudi Airlines
 harga: 24500000
 durasi: 9
