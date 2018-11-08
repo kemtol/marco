@@ -33,9 +33,11 @@ layout: default
       <div class="a1-hotel">
         <h2>Hotel anda</h2>
         {% include hotel.html %}
-        
-        {% assign idhotel = page.hotel | downcase | | join: ', #' %}
-        {{ page.hotel | downcase | | join: ', #' }}
+        <style>
+        {% for idhotel inpage.hotel %}
+          #{{ idhotel | downcase | replace : ' ','' }}{display:none}
+        {% endfor %}
+        </style>
       </div>
     </div>
     <div class="col-xs-12 col-md-4 a2">
