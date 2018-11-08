@@ -33,11 +33,6 @@ layout: default
       <div class="a1-hotel">
         <h2>Hotel anda</h2>
         {% include hotel.html %}
-        <style>
-        {% for idhotel in page.hotel %}
-          #{{ idhotel | downcase | replace : ' ','' }}{display:none}
-        {% endfor %}
-        </style>
       </div>
     </div>
     <div class="col-xs-12 col-md-4 a2">
@@ -66,6 +61,7 @@ layout: default
 </div>
 <script>
   $(function() {
+  // inject carousel untuk gambar di halaman ini
   var i = 0;
   $("p:nth-child(2) img").each(function( index ) {
     var img = $(this).attr("src");
@@ -77,5 +73,11 @@ layout: default
   $('.item').first().addClass('active');
   $('.carousel-indicators > li').first().addClass('active');
   $('#carousel-example-generic').carousel();
+    
+  //tampilin hotel untuk paket ini
+  {% for idhotel in page.hotel %}
+    $('#{{ idhotel | downcase | replace : ' ','' }}').show();
+  {% endfor %}
+    
   });
 </script>
