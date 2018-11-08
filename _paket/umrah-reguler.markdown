@@ -7,8 +7,8 @@ categories:
 maskapai: Saudi Airlines
 harga: 24500000
 hotel:
-  '1': Makarem Ajyad
-  '2': Al Rawda Al Aqeeq
+- Makarem Ajyad
+- Al Rawda Al Aqeeq
 durasi: 9
 layout: paket
 ---
