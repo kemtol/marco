@@ -34,7 +34,7 @@ layout: default
         <h2>Hotel anda</h2>
         {% include hotel.html %}
         <style>
-        {% for idhotel inpage.hotel %}
+        {% for idhotel in page.hotel %}
           #{{ idhotel | downcase | replace : ' ','' }}{display:none}
         {% endfor %}
         </style>
