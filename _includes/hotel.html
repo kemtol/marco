@@ -1,6 +1,6 @@
 {% for hotel in site.hotel %}
-{% assign idhotel = hotel.title | replace : ' ','--' | downcase %}
-<div class="panel panel-default" id="hotel--{{ idhotel }}">
+{% assign idhotel = hotel.title | replace : ' ','' | downcase %}
+<div class="panel panel-default" id="{{ idhotel }}">
   <div class="panel-heading">{{ hotel.title }} ({{ hotel.kota }}) <span>{{ hotel.bintang }}</span></div>
   <div class="panel-body">{{ hotel.content }}</div>
 </div>
