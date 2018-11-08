@@ -35,7 +35,7 @@ layout: default
         {% include hotel.html %}
         
         {% assign idhotel = page.hotel | downcase | | join: ', #' %}
-        {{ idhotel }}
+        {{ page.hotel | downcase | | join: ', #' }}
       </div>
     </div>
     <div class="col-xs-12 col-md-4 a2">
