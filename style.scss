@@ -635,6 +635,9 @@ div[id*='page-']{
 			font-size: 100%;
 		}
 	}
+	.carousel-inner > .item > img{
+		width:100%;
+	}
 	.carousel-control{
 		.fas{
 			position: absolute;
