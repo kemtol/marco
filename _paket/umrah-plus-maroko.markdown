@@ -7,7 +7,9 @@ categories:
 - tour
 harga: 35200000
 maskapai: Saudi Airlines
-hotel: 
+hotel:
+- Al Rawda Al Aqeeq
+- Makarem Ajyad
 durasi: 13
 layout: paket
 ---
