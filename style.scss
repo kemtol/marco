@@ -684,6 +684,29 @@ div[id*='page-']{
 	}
 }
 
+.need-help{
+	display:block;
+	position:relative;
+	span.no-wa{
+		line-height: 75px;
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 85px;
+	}
+}
+
+.make-it-round{
+	display: inline-block;
+	width: 75px;
+	overflow: hidden;
+	height: 75px;
+	border-radius: 50%;
+	img{
+		height: 102%;
+	}
+}
+
 /*********************
 * override page haji
 **********************/
