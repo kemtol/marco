@@ -21,9 +21,9 @@ layout: paket
 1. Berangkat dari Bandara Soekarno Hatta, Jakarta
 2. Tiba di Madinah
 3. Tiba di Makkah
-4. Mina
+4. Tiba di Mina
 5. Sampai di Tenda 112 Mina
-6. Masjidil Haram
+6. Sampai di Masjidil Haram
 7. Muzdalifah
 8. Tenda 112 Arafah
 9. Sampai di Hotel Transit Makkah
