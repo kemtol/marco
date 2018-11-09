@@ -15,6 +15,8 @@ layout: paket
 
 ![umrah-2-jumat.jpg](/uploads/umrah-2-jumat.jpg)
 
+![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![hotel-al-fajar-2.jpg](/uploads/hotel-al-fajar-2.jpg)
+
 1. Jakarta – Jeddah
 2. Jeddah – Madinah
 3. Madinah
