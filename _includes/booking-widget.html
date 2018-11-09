@@ -24,8 +24,8 @@
   <label class="col-xs-12" for="selectbasic">Keberangkatan</label>
   <div class="col-xs-12">
     <select id="selectbasic" name="selectbasic" class="form-control">
-      <option value="201911">November</option>
-      <option value="201912">December</option>
+      <option value="201911">{{ site.time | date: '%m' }}</option>
+      <option value="201912">{{ site.time | date: '%m' }}</option>
     </select>
   </div>
 </div>
