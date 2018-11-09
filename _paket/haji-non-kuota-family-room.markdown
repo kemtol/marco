@@ -16,6 +16,8 @@ layout: paket
 
 ![family-room.jpg](/uploads/family-room.jpg)
 
+![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![hotel-al-fajar-2.jpg](/uploads/hotel-al-fajar-2.jpg)
+
 1. Jakarta
 2. Hotel Movenpick Anwar Madinah
 3. Hotel Transit Makkah
