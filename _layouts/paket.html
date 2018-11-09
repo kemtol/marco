@@ -27,11 +27,16 @@ layout: default
         </a>
       </div>
       <div class="a1-content">
-        <h2>Rencana perjalanan anda</h2>
-        {{ content }}
+        <h2>Detail paket umrah anda:</h2>
+        <div class="panel panel-default" id="itenary" style="display: block;">
+          <div class="panel-heading">Rencana Perjalanan</div>
+          <div class="panel-body">
+          {{ content }}
+          </div>
+        </div>
       </div>
       <div class="a1-hotel">
-        <h2>Hotel anda</h2>
+        <h2>Hotel anda:</h2>
         {% include hotel.html %}
       </div>
     </div>
