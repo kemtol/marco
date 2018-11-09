@@ -18,15 +18,15 @@ layout: paket
 
 ![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![hotel-al-fajar-2.jpg](/uploads/hotel-al-fajar-2.jpg)
 
-1. Jakarta
-2. Hotel Movenpick Anwar Madinah
+1. Berangkat dari Bandara Soekarno Hatta, Jakarta
+2. Tiba di Hotel Movenpick Anwar Madinah
 3. Hotel Transit Makkah
 4. Tenda 112 Mina
 5. Tenda 112 Mina
-6. Masjidil Haram
+6. Tiba di Masjidil Haram
 7. Muzdalifah
 8. Tenda 112 Arafah
 9. Hotel Transit Makkah
-10. Hotel Dar Tawhid Intercon Makkah
-11. Jeddah
-12. Jakarta
+10. Tiba di Hotel Dar Tawhid Intercon Makkah
+11. Kembali ke Jeddah
+12. Insya Allah, tiba sampai Jakarta tepat waktu. Aamin. 
