@@ -612,7 +612,7 @@ div[id*='page-']{
 		}
 	}
 	.b1 {
-		box-shadow: 0px 0px 5px #ccc;
+		background: cornsilk;
 		padding: 15px;
 		margin-bottom: 30px;
 		h2 {
@@ -635,18 +635,20 @@ div[id*='page-']{
 			font-size: 100%;
 		}
 	}
-	.carousel-inner > .item > img{
-		width:100%;
-	}
-	.carousel-control{
-		.fas{
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			transform: translate(-50%,-50%);
+	.carousel{
+		background:transparent;
+		.carousel-inner > .item > img{
+			width:100%;
+		}
+		.carousel-control{
+			.fas{
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+			}
 		}
 	}
-	
 	.a1-hotel{
 		.panel{
 			display:none;
