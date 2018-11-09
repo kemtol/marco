@@ -24,6 +24,7 @@
   <label class="col-xs-12" for="selectbasic">Keberangkatan</label>
   <div class="col-xs-12">
     <select id="selectbasic" name="selectbasic" class="form-control">
+      {% assign thismonth = 'now' | date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace:"+","%20" %}
       {% assign nextmonth = 'now' | date: "%s" | minus : 2592000 | date: "%b %d, %Y %I:%M %p -0500" | uri_encode | replace:"+","%20" %}
       <option value="{{ now }}">{{ now' }}</option>
       <option value="{{ nextmonth }}">{{ nextmonth }}</option>
