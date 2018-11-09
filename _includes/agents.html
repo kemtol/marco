@@ -6,7 +6,7 @@
             {% for agen in site.agen %}
             <a class="col-xs-6 col-sm-6  col-md-4" href="https://api.whatsapp.com/send?phone={{agen.agenwa}}&text=Assalamualaikum%20Marco%20Umrah">
                 <span class="item-title tix-mb-025">{{ agen.title }}</span>
-                <span class="item-desc">{{ agen.agenwa }}<small>{{ agen.agenalamat | capitalize }}</small></span>
+                <span class="item-desc"><i class="fab fa-whatsapp"></i> {{ agen.agenwa }}<small>{{ agen.agenalamat | capitalize }}</small></span>
             </a>
             {% endfor %}
         </div>
