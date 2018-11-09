@@ -24,7 +24,7 @@ layout: paket
 4. Tenda 112 Mina
 5. Tenda 112 Mina
 6. Tiba di Masjidil Haram
-7. Muzdalifah
+7. Sampai di Muzdalifah
 8. Tenda 112 Arafah
 9. Hotel Transit Makkah
 10. Tiba di Hotel Dar Tawhid Intercon Makkah
