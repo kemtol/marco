@@ -30,9 +30,9 @@ thispage: haji
                                 </div>
                                 <h4>{{ layanan.title }}</h4>
                                 {% if layanan.hargausd %}
-                                    <h3>{{ layanan.hargausd | money_without_currency }} USD</h3>
+                                    <h3>{{ layanan.hargausd | money }} USD</h3>
                                 {% else %}
-                                    <h3>Rp {{ layanan.harga | money_without_currency }}</h3>
+                                    <h3>Rp {{ layanan.harga | money }}</h3>
                                 {% endif %}
                                 <p>Satu kamar {{ layanan.paxroom }} orang</p>
                                 <span class="button-primary">BOOK</span>
