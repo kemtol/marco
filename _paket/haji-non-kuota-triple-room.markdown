@@ -16,6 +16,8 @@ layout: paket
 
 ![triple-room.jpg](/uploads/triple-room.jpg)
 
+![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![hotel-al-fajar-2.jpg](/uploads/hotel-al-fajar-2.jpg)
+
 1. Jakarta
 2. Madinah
 3. Makkah
