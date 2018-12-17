@@ -2,17 +2,17 @@
 title: Marco
 timezone: UTC
 collections:
-  paket:
-    title: Paket
-    output: true
-  hotel:
-    title: Hotel
-    output: true
   agen:
     title: Agen
     output: true
   cabang:
     title: Cabang
+    output: true
+  hotel:
+    title: Hotel
+    output: true
+  paket:
+    title: Paket
     output: true
   posts:
     title: Posts
@@ -27,9 +27,9 @@ defaults:
   values:
     layout: paket
     image:
-    - /uploads/hotel-al-fajar-1.jpg
-    - /uploads/hotel-al-fajar-1.jpg
-    - /uploads/hotel-al-fajar-1.jpg
+    - "/uploads/hotel-al-fajar-1.jpg"
+    - "/uploads/hotel-al-fajar-1.jpg"
+    - "/uploads/hotel-al-fajar-1.jpg"
     maskapai: Saudi Airlines
     harga: 24500000
     hargasale: 0
