@@ -58,13 +58,13 @@ layout: default
       <div class="b1 c1">
         <h2>Booking Detail</h2>
         <strong>Harga Total:</strong><br/>
-        <span id="harga">Rp 24500000 (estimasi)</span> x (<span id="jamaah"></span>)
+        <span id="harga">Rp 24500000</span> x (<span id="jamaah"></span>)<br/>
         <span id="total">Rp 24500000 (estimasi)</span>
         <hr style="margin-bottom:20px">
         <strong>Keberangkatan:</strong><br/>
-        <span id="keberangkatan">Januari 2019</span><br/><br/>
+        <span id="keberangkatan"></span><br/><br/>
         <strong>Maskapai</strong>
-        <span id="maskapai">Saudi Airlines</span>
+        <span id="maskapai"></span>
       </div>
     </div>
      
@@ -91,10 +91,13 @@ $(function() {
   var paket = getUrlParameter('paket');
   var tanggal = getUrlParameter('tgl');
   var jamaah = getUrlParameter('jamaah');
+  var harga = getUrlParameter('harga');
+  var total;
   
-  console.log(paket);
-  console.log(tanggal);
-  console.log(jamaah);
+  $("#harga").html(harga);
+  $("#total").html(harga);
+  $("#keberangkatan").html(jamaah);
+  $("#maskapai").html(jamaah);
   
 });
 </script>
