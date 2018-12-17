@@ -52,17 +52,17 @@ defaults:
     type: agen
   values:
     layout: static
-    agenwa: 0812xxxxxxxxx
+    agenwa: '0812xxxxxxxxx'
     agenalamat: Jl. xxxxxx
 - scope:
     path: ''
     type: cabang
   values:
     layout: static
-    cabangwa: 0812xxxxxxxxx
+    cabangwa: '0812xxxxxxxxx'
     cabangpic: Bpk / Ibu xxx
     cabangalamat: Jl. xxxxxx
-    cabangtelp: (02x) xxxx xxxx
+    cabangtelp: "(02x) xxxx xxxx"
 name: MARCO Haji, Umrah
 description: Muslim Trip Tour & Travel
 avatar: 
