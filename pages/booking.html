@@ -62,7 +62,7 @@ layout: default
         <strong>Harga Total:</strong><br/>
         Rp <span id="harga"></span> x <span id="jamaah"></span> jamaah<br/>
         <span> --------- x </span><br/>
-        <span id="total">Rp 24500000 (estimasi)</span>
+        Rp <span id="total">24500000</span> (estimasi)
         <hr style="margin-bottom:20px">
         <strong>Keberangkatan:</strong><br/>
         <span id="keberangkatan"></span><br/><br/>
@@ -96,11 +96,11 @@ $(function() {
   var jamaah = getUrlParameter('jamaah');
   var harga = getUrlParameter('harga');
   var maskapai = getUrlParameter('maskapai');
-  var total;
+  var total = harga * jamaah;
   
   $("#paket").html(paket);
   $("#harga").html(harga);
-  $("#total").html(harga);
+  $("#total").html(total);
   $("#keberangkatan").html(tanggal);
   $("#maskapai").html(maskapai);
   
