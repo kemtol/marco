@@ -5,6 +5,8 @@ permalink: "/paket/umrah-2-jumat.html"
 categories:
 - umrah
 - reguler
+tags:
+- terbaik
 image:
 - "/uploads/umrah-2-jumat.jpg"
 - "/uploads/hotel-al-fajar-1.jpg"
