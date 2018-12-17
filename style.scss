@@ -97,6 +97,12 @@ div.right_ribbon::before{
 }
 
 header {
+	border-bottom:1px solid #fff;
+	.izin{
+    background: gold;
+    border-top: 1px solid #fff;
+    color: darkgreen;
+	}
   .navbar-header{
     img{
       @include mobile {
@@ -126,8 +132,8 @@ header {
           width: 100%;
           text-align: right;
         }
-      }
-    }
+			}
+	}
 }
 
 #nav--bottom {
