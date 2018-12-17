@@ -64,7 +64,7 @@ layout: default
         <hr style="margin-bottom:20px">
         <strong>Keberangkatan:</strong><br/>
         <span id="keberangkatan"></span><br/><br/>
-        <strong>Maskapai</strong>
+        <strong>Maskapai:</strong><br/>
         <span id="maskapai"></span>
       </div>
     </div>
@@ -93,12 +93,13 @@ $(function() {
   var tanggal = getUrlParameter('tgl');
   var jamaah = getUrlParameter('jamaah');
   var harga = getUrlParameter('harga');
+  var maskapai = getUrlParameter('maskapai');
   var total;
   
   $("#harga").html(harga);
   $("#total").html(harga);
   $("#keberangkatan").html(jamaah);
-  $("#maskapai").html(jamaah);
+  $("#maskapai").html(maskapai);
   
 });
 </script>
