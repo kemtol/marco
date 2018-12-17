@@ -4,11 +4,13 @@ date: 2018-10-13 09:15:00 Z
 permalink: "/paket/umrah-paket-hemat.html"
 categories:
 - umrah
+image:
+- "/uploads/umrah-paket-hemat.jpg"
+maskapai: Saudi Airlines
+harga: 24500000
 hotel:
 - Al Fajr Al Badea
 - Al Mukhtara
-maskapai: Saudi Airlines
-harga: 24500000
 durasi: 9
 layout: paket
 ---
