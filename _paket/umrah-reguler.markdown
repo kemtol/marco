@@ -4,6 +4,8 @@ date: 2018-10-14 04:53:00 Z
 permalink: "/paket/umrah-paket-reguler.html"
 categories:
 - umrah
+image:
+- "/uploads/umrah-reguler.jpg"
 maskapai: Saudi Airlines
 harga: 24500000
 hotel:
