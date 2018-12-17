@@ -55,7 +55,7 @@ layout: default
                 <div class="form-group">
                   <label class="hidden col-md-4" for="singlebutton"></label>
                   <div class="col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=6281381462334&amp;text=Assalamualaikum%20Marco%20Umrah" id="singlebutton" name="singlebutton" class="btn btn-primary pull-right btn-red">Daftarkan Kami <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=6281381462334&amp;text=Assalamualaikum%20Marco%20Umrah" id="singlebutton" name="singlebutton" class="btn btn-primary pull-right btn-red submit-btn">Daftarkan Kami <i class="fas fa-arrow-right"></i></a>
                   </div>
                 </div>
               </fieldset>
@@ -115,6 +115,19 @@ $(function() {
   $("#total").html(total);
   $("#keberangkatan").html(tanggal);
   $("#maskapai").html(maskapai);
+  
+  var msg = "Halo Marco Umrah \n";
+  msg += "Berikut detail perjalanan yang ingin kami lakukan\n";
+  msg += "Keberangkatan: "+ tanggal +"\n";
+  msg += "Jumlah Jamaah: "+ jamaah +"\n";
+  msg += "Pemesan: "+ $("#nama").val() +"\n";
+  msg += "WA Pemesan: "+ $("#wa").val() +"\n";
+  msg += "Email Pemesan: "+ $("#email").val() +"\n";
+  
+  $('#singlebutton').click(function(){
+    window.location.href='https://api.whatsapp.com/send?phone={{site.wa}}&text='+msg;
+    return false;
+  });
   
 });
 </script>
