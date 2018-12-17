@@ -6,7 +6,7 @@ categories:
 - umrah
 - reguler
 tags:
-- termurah
+- ekonomis
 image:
 - "/uploads/umrah-paket-hemat.jpg"
 - "/uploads/hotel-al-fajar-1.jpg"
