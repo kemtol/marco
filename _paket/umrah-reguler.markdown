@@ -5,6 +5,8 @@ permalink: "/paket/umrah-paket-reguler.html"
 categories:
 - umrah
 - reguler
+tags:
+- terpopuler
 image:
 - "/uploads/umrah-reguler.jpg"
 - "/uploads/hotel-al-fajar-1.jpg"
