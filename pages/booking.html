@@ -125,7 +125,7 @@ $(function() {
   msg += "Email Pemesan: "+ $("#email").val() +"\r\n";
   
   $('#singlebutton').click(function(){
-    window.location.href='https://api.whatsapp.com/send?phone={{site.wa}}&text='+window.encodeURIComponent(msg);
+    window.location.href='https://api.whatsapp.com/send?phone={{site.wa}}&text='+encodeURIComponent(msg);
     return false;
   });
   
