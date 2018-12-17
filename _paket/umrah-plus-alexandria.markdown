@@ -5,8 +5,10 @@ permalink: "/paket/umrah-plus-alexandria.html"
 categories:
 - umrah
 - tour
-harga: 32900000
+image:
+- "/uploads/paket-umrah-murah-alexandria.jpg"
 maskapai: Saudi Airlines
+harga: 32900000
 hotel:
 - Grand Pyramids
 - Makarem Ajyad
