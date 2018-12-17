@@ -5,8 +5,10 @@ permalink: "/paket/umrah-plus-maroko.html"
 categories:
 - umrah
 - tour
-harga: 35200000
+image:
+- "/uploads/paket-umrah-murah-maroko.jpg"
 maskapai: Saudi Airlines
+harga: 35200000
 hotel:
 - Al Rawda Al Aqeeq
 - Makarem Ajyad
