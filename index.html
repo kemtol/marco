@@ -69,7 +69,20 @@ layout: default
             <h2>MARCO Umrah Plus</h2>
             <p>Beribadah hati sekaligus merefleksikan diri bersama MARCO umrah plus.</p>
             <div class="row">
+                {% assign tours = site.paket | where: "categories", "tour" | sort:"date" | reverse %}
+                {% for tour in tours limit: 4 %}
                 <div class="col-xs-6 col-md-3">
+                    <div class="point-item">
+                        <a href="{{tour.permalink}}">
+                            <img src="{{site.baseurl}}{{site.image[0]}}">
+                            <h4>{{tour.title}}</h4>
+                            <h3>Rp {{tour.harga}}</h3>
+                            <p>{{tour.maskapai}}</p>
+                            <span class="button-primary">BOOK</span>
+                        </a>
+                    </div>
+                </div>
+                <!--<div class="col-xs-6 col-md-3">
                     <div class="point-item">
                         <a href="https://api.whatsapp.com/send?phone={{site.wa}}&text=Assalamualaikum%20Marco%20Umrah">
                             <img src="{{site.baseurl}}/images/paket-umrah/home/paket-umrah-murah-alexandria.jpg">
@@ -112,7 +125,7 @@ layout: default
                             <span class="button-primary">BOOK</span>
                         </a>
                     </div>
-                </div>
+                </div>-->
                 <a href="{{site.baseurl}}/paket-umrah/" class="button-primary ghost-primary">Lihat Daftar Lengkap</a>
             </div>
         </div>
