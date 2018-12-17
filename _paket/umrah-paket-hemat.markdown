@@ -17,6 +17,7 @@ hotel:
 - Al Fajr Al Badea
 - Al Mukhtara
 durasi: 9
+video: https://www.youtube.com/watch?v=Ig19gH7BUUM
 layout: paket
 ---
 
