@@ -86,9 +86,12 @@ layout: default
     $('#{{ idhotel | downcase | replace : ' ','' }}').show();
   {% endfor %}
   
+  // click to cxout
+  
   $('#singlebutton').click(function(){
-    console.log("clicked");
-    window.location.href='/paket/booking-keberangkatan/?paket={{page.title}}&harga={{page.harga}}&tgl=2018212&jamaah=2&maskapai={{page.maskapai}}';
+    var keberangkatan = $("#keberangkatan option:selected").text();
+    var jamaah = $("#jamaah").val();
+    window.location.href='/paket/booking-keberangkatan/?paket={{page.title}}&harga={{page.harga}}&tgl='+ keberangkatan +'&jamaah='+ jamaah +'&maskapai={{page.maskapai}}';
     return false;
   })
   
