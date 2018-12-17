@@ -58,7 +58,7 @@ layout: default
       <div class="b1 c1">
         <h2>Booking Detail</h2>
         <strong>Paket:</strong><br/>
-        <span id="paket"></span><br/><br/>
+        <span id="package"></span><br/><br/>
         <strong>Harga Total:</strong><br/>
         Rp <span id="harga"></span> x <span id="jamaah"></span> jamaah<br/>
         <span> --------- x </span><br/>
@@ -91,14 +91,14 @@ $(function() {
     }
   };
 
-  var paket = getUrlParameter('paket');
+  var package = getUrlParameter('paket');
   var tanggal = getUrlParameter('tgl');
   var jamaah = getUrlParameter('jamaah');
   var harga = getUrlParameter('harga');
   var maskapai = getUrlParameter('maskapai');
   var total = harga * jamaah;
   
-  $("#paket").html(paket);
+  $("#package").html(paket);
   $("#harga").html(harga);
   $("#total").html(total);
   $("#keberangkatan").html(tanggal);
