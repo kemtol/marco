@@ -4,13 +4,17 @@ date: 2018-10-25 03:15:00 Z
 permalink: "/paket/haji-triple-room.html"
 categories:
 - haji
-hargausd: 19000
-paxroom: 3
+image:
+- "/uploads/triple-room.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
+- "/uploads/hotel-al-fajar-2.jpg"
 maskapai: Saudi Airlines
 hotel:
 - Makarem Ajyad
 - Al Rawda Al Aqeeq
 durasi: 15
+hargausd: 19000
+paxroom: 3
 layout: paket
 ---
 
