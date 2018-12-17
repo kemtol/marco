@@ -5,8 +5,10 @@ permalink: "/paket/umrah-private.html"
 categories:
 - umrah
 - tour
-harga: 36000000
+image:
+- "/uploads/umroh%20private.jpg"
 maskapai: Saudi Airlines
+harga: 36000000
 hotel:
 - Movenpick Madinah
 - Movenpick Makkah
