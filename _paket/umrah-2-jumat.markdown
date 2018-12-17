@@ -4,8 +4,11 @@ date: 2018-12-01 05:06:00 Z
 permalink: "/paket/umrah-2-jumat.html"
 categories:
 - umrah
+- reguler
 image:
 - "/uploads/umrah-2-jumat.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
 maskapai: Saudi Airlines
 harga: 27750000
 hotel:
