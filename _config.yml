@@ -35,6 +35,7 @@ defaults:
     hargasale: 0
     hotel:
     - Al Rawda Al Aqeeq
+    durasi: 9
 - scope:
     path: ''
     type: hotel
@@ -46,6 +47,22 @@ defaults:
     - "/uploads/hotel-al-fajar-1.jpg"
     bintang: 5
     kota: Madinah
+- scope:
+    path: ''
+    type: agen
+  values:
+    layout: static
+    agenwa: 0812xxxxxxxxx
+    agenalamat: Jl. xxxxxx
+- scope:
+    path: ''
+    type: cabang
+  values:
+    layout: static
+    cabangwa: 0812xxxxxxxxx
+    cabangpic: Bpk / Ibu xxx
+    cabangalamat: Jl. xxxxxx
+    cabangtelp: (02x) xxxx xxxx
 name: MARCO Haji, Umrah
 description: Muslim Trip Tour & Travel
 avatar: 
