@@ -4,6 +4,7 @@ date: 2018-12-02 04:53:00 Z
 permalink: "/paket/umrah-paket-reguler.html"
 categories:
 - umrah
+- reguler
 image:
 - "/uploads/umrah-reguler.jpg"
 - "/uploads/hotel-al-fajar-1.jpg"
