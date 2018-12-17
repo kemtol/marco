@@ -21,7 +21,7 @@ thispage: layanan
                 <a class="layanan" href="{{base.url}}{{layanan.permalink}}">
                     {{ layanan.content }}
                     <h4>{{ layanan.title }}</h4>
-                    {% if layanan.hargausd %}
+                    {% if layanan.hargausd and layanan.hargausd != 0 %}
                         <h3>{{ layanan.hargausd | money_without_currency }} USD</h3>
                     {% else %}
                         <h3>Rp {{ layanan.harga | money_without_currency }}</h3>
