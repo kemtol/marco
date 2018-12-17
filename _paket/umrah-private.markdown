@@ -1,12 +1,14 @@
 ---
 title: Umrah Private
-date: 2018-10-15 06:30:00 Z
+date: 2018-10-14 06:30:00 Z
 permalink: "/paket/umrah-private.html"
 categories:
 - umrah
 - tour
 image:
 - "/uploads/umroh%20private.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
 maskapai: Saudi Airlines
 harga: 36000000
 hotel:
