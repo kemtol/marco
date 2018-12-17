@@ -13,6 +13,10 @@ hotel:
 - Makarem Ajyad
 - Al Rawda Al Aqeeq
 durasi: 15
+image:
+- "/uploads/paket-umrah-murah-yordan.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
 layout: paket
 ---
 
