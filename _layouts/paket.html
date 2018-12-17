@@ -85,6 +85,11 @@ layout: default
   {% for idhotel in page.hotel %}
     $('#{{ idhotel | downcase | replace : ' ','' }}').show();
   {% endfor %}
-    
+  
+  $('#singlebutton').click(function(){
+   console.log("clicked");
+   window.location.href='/paket/booking-keberangkatan/';
+  })
+  
   });
 </script>
