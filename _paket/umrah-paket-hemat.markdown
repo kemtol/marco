@@ -4,8 +4,13 @@ date: 2018-10-13 09:15:00 Z
 permalink: "/paket/umrah-paket-hemat.html"
 categories:
 - umrah
+- reguler
+tags:
+- termurah
 image:
 - "/uploads/umrah-paket-hemat.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
 maskapai: Saudi Airlines
 harga: 24500000
 hotel:
