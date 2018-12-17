@@ -10,7 +10,7 @@ layout: default
         <p class=" text-center mb-40">Beribadah ekonomis tanpa perlu khawatir.</p>
         <div class="row home-last-feature">
             {% assign features = site.paket | where: "tags", "ekonomis" | sort:"date" | reverse %}
-            {% for feature in regulers limit: 1 %}
+            {% for feature in features limit: 1 %}
             <div class="col-xs-12 col-md-8 area-picture" style="background-image: url({{site.baseurl}}{{feature.image[0]}});height: 375px;background-position: center center;background-size: cover;position:relative;padding-right:0">
                 <div class="ribbon right_ribbon" style="right:-10px">
                     <span>PALING {{feature.tags[0]}}</span>
