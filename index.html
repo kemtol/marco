@@ -34,7 +34,24 @@ layout: default
             <h2>MARCO Umrah Reguler</h2>
             <p>Beribadah tanpa gelisah bersama MARCO reguler.</p>
             <div class="row">
+                {% assign regulers = site.paket | where: "categories", "reguler" | sort:"date" | reverse %}
+                {% for reguler in regulers limit: 4 %}
                 <div class="col-xs-6 col-md-6">
+                    <div class="point-item">
+                        <a href="{{reguler.permalink}}">
+                            <div class="ribbon right_ribbon">
+                                <span>TERPOPULER</span>
+                            </div>
+                            <img src="{{site.baseurl}}{{reguler.image[0]}}">
+                            <h4>{{reguler.title}}</h4>
+                            <h3>Rp {{reguler/harga}}</h3>
+                            <p>Umrah paket {{reguler.durasi}} hari.</p>
+                            <span class="button-primary">BOOK</span>
+                        </a>
+                    </div>
+                </div>
+                {% endfor %}
+                <!--<div class="col-xs-6 col-md-6">
                     <div class="point-item">
                         <a href="https://api.whatsapp.com/send?phone={{site.wa}}&text=Assalamualaikum%20Marco%20Umrah">
                             <div class="ribbon right_ribbon">
@@ -61,7 +78,7 @@ layout: default
                             <span class="button-primary">BOOK</span>
                         </a>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
 
@@ -83,50 +100,6 @@ layout: default
                     </div>
                 </div>
                 {% endfor %}
-                <!--<div class="col-xs-6 col-md-3">
-                    <div class="point-item">
-                        <a href="https://api.whatsapp.com/send?phone={{site.wa}}&text=Assalamualaikum%20Marco%20Umrah">
-                            <img src="{{site.baseurl}}/images/paket-umrah/home/paket-umrah-murah-alexandria.jpg">
-                            <h4>Umrah Plus Alexandria</h4>
-                            <h3>Rp 32.940.000</h3>
-                            <p>Direct Garuda</p>
-                            <span class="button-primary">BOOK</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="point-item">
-                        <a href="https://api.whatsapp.com/send?phone={{site.wa}}&text=Assalamualaikum%20Marco%20Umrah">
-                            <img src="{{site.baseurl}}/images/paket-umrah/home/paket-umrah-murah-turki.jpg">
-                            <h4>Umrah Plus Turki</h4>
-                            <h3>Rp 34.400.000</h3>
-                            <p>Direct Garuda</p>
-                            <span class="button-primary">BOOK</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="point-item">
-                        <a href="https://api.whatsapp.com/send?phone={{site.wa}}&text=Assalamualaikum%20Marco%20Umrah">
-                            <img src="{{site.baseurl}}/images/paket-umrah/home/paket-umrah-murah-turki.jpg">
-                            <h4>Umrah Plus Yordania</h4>
-                            <h3>Rp 41.600.000</h3>
-                            <p>Direct Garuda</p>
-                            <span class="button-primary">BOOK</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-xs-6 col-md-3">
-                    <div class="point-item">
-                        <a href="https://api.whatsapp.com/send?phone={{site.wa}}&text=Assalamualaikum%20Marco%20Umrah">
-                            <img src="{{site.baseurl}}/images/paket-umrah/home/paket-umrah-murah-maroko.jpg">
-                            <h4>Umrah Plus Maroko</h4>
-                            <h3>Rp 35.200.000</h3>
-                            <p>Direct Garuda</p>
-                            <span class="button-primary">BOOK</span>
-                        </a>
-                    </div>
-                </div>-->
                 <a href="{{site.baseurl}}/paket-umrah/" class="button-primary ghost-primary">Lihat Daftar Lengkap</a>
             </div>
         </div>
