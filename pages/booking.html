@@ -47,7 +47,7 @@ layout: default
                 <div class="form-group mb-20">
                   <label class="col-xs-12" for="wa">Nama Jamaah:</label>  
                   <div class="col-xs-12">
-                  <textarea class="form-control" style="width:100%;height:100px" placeholder="1. Nama Lengkap 1&#10;2. Nama Lengkap 2&#10;3. Dst.."></textarea>
+                  <textarea id="list-jamaah" class="form-control" style="width:100%;height:100px" placeholder="1. Nama Lengkap 1&#10;2. Nama Lengkap 2&#10;3. Dst.."></textarea>
                   </div>
                 </div>
 
@@ -118,13 +118,15 @@ $(function() {
   
   $('#singlebutton').click(function(){
 
-    var msg = "Halo Marco Umrah \r\n";
-    msg += "Berikut detail perjalanan yang ingin kami lakukan\r\n";
-    msg += "Keberangkatan: "+ tanggal +"\r\n";
-    msg += "Jumlah Jamaah: "+ jamaah +"\r\n";
-    msg += "Pemesan: "+ $("#nama").val() +"\r\n";
-    msg += "WA Pemesan: "+ $("#wa").val() +"\r\n";
-    msg += "Email Pemesan: "+ $("#email").val() +"\r\n";
+    var msg = "Halo Marco Umrah, \r\n";
+    msg += "Berikut detail perjalanan yang ingin kami lakukan:\r\n\r\n";
+    msg += "Keberangkatan:\r\n"+ tanggal +"\r\n\r\n";
+    msg += "Jumlah Jamaah:\r\n"+ jamaah +"\r\n\r\n";
+    msg += "Pemesan:\r\n"+ $("#nama").val() +"\r\n\r\n";
+    msg += "WA Pemesan:\r\n"+ $("#wa").val() +"\r\n\r\n";
+    msg += "Email Pemesan:\r\n"+ $("#email").val() +"\r\n\r\n";
+    msg += "Daftar Jamaah:\r\n"+ $("#list-jamaah").val() +"\r\n\r\n";
+    msg += "Jika data yang saya masukan sudah benar, mohon hubungi saya kembali.";
     
     window.location.href='https://api.whatsapp.com/send?phone={{site.wa}}&text='+encodeURIComponent(msg);
     return false;
