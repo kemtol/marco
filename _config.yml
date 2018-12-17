@@ -31,11 +31,14 @@ defaults:
     - "/uploads/hotel-al-fajar-1.jpg"
     - "/uploads/hotel-al-fajar-1.jpg"
     maskapai: Saudi Airlines
-    harga: 24500000
+    harga: 0
     hargasale: 0
+    hargausd: 0
+    hargausdsale: 0
     hotel:
     - Al Rawda Al Aqeeq
     durasi: 9
+    paxroom: 4
 - scope:
     path: ''
     type: hotel
