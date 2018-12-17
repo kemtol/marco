@@ -116,15 +116,16 @@ $(function() {
   $("#keberangkatan").html(tanggal);
   $("#maskapai").html(maskapai);
   
-  var msg = "Halo Marco Umrah \r\n";
-  msg += "Berikut detail perjalanan yang ingin kami lakukan\r\n";
-  msg += "Keberangkatan: "+ tanggal +"\r\n";
-  msg += "Jumlah Jamaah: "+ jamaah +"\r\n";
-  msg += "Pemesan: "+ $("#nama").val() +"\r\n";
-  msg += "WA Pemesan: "+ $("#wa").val() +"\r\n";
-  msg += "Email Pemesan: "+ $("#email").val() +"\r\n";
-  
   $('#singlebutton').click(function(){
+
+    var msg = "Halo Marco Umrah \r\n";
+    msg += "Berikut detail perjalanan yang ingin kami lakukan\r\n";
+    msg += "Keberangkatan: "+ tanggal +"\r\n";
+    msg += "Jumlah Jamaah: "+ jamaah +"\r\n";
+    msg += "Pemesan: "+ $("#nama").val() +"\r\n";
+    msg += "WA Pemesan: "+ $("#wa").val() +"\r\n";
+    msg += "Email Pemesan: "+ $("#email").val() +"\r\n";
+    
     window.location.href='https://api.whatsapp.com/send?phone={{site.wa}}&text='+encodeURIComponent(msg);
     return false;
   });
