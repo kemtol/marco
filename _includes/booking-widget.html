@@ -4,8 +4,8 @@
 <div class="form-group mb-20">
   <label class="col-xs-12" for="selectbasic">Paket</label>
   <div class="col-xs-12">
-    <select id="selectbasic" name="selectbasic" class="form-control" disabled>
-      <option value="1">{{page.title}}</option>
+    <select id="layanan" name="selectbasic" class="form-control" disabled>
+      <option value="{{page.title}}">{{page.title}}</option>
     </select>
   </div>
 </div>
@@ -14,7 +14,7 @@
 <div class="form-group mb-20">
   <label class="col-xs-12" for="textinput">Jumlah Jamaah</label>  
   <div class="col-xs-12">
-  <input id="textinput" name="textinput" type="text" placeholder="2 (contoh)" class="form-control input-md">
+  <input id="jamaah" name="jamaah" type="text" placeholder="2 (contoh)" class="form-control input-md">
   <small class="help-block pull-right">Harga tidak mengikat</small>
   </div>
 </div>
@@ -23,7 +23,7 @@
 <div class="form-group mb-20">
   <label class="col-xs-12" for="selectbasic">Keberangkatan</label>
   <div class="col-xs-12">
-    <select id="selectbasic" name="selectbasic" class="form-control">
+    <select id="keberangkatan" name="selectbasic" class="form-control">
       {% assign thismonth = 'now' | date: "%s" | minus : 0 %}
       {% assign nextmonth = 'now' | date: "%s" | plus : 2592000 %}
       <option value="{{ thismonth | date: "%Y%m" | uri_encode | replace:"+","%20" }}">{{ thismonth | date: "%B %Y" | uri_encode | replace:"+","%20" }}</option>
