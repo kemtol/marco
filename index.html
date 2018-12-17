@@ -24,11 +24,11 @@ layout: default
                 </a>
             </div>
             <div class="col-xs-12 col-md-4 area-text">
-                <h3 class="fitur-hotel-txt">{{feature.shortdesc}}</h3>
+                <h3 class="fitur-hotel-txt">{{feature.shortdesc[0]}}</h3>
                 <strong class="mb-40" style="display: inline-block;color: #ff7200;font-size: 18px;">
                     Rp {{feature.harga}}
                 </strong>
-                <p>{{feature.shortdesc}}</p>
+                <p>{{feature.shortdesc[1]}}</p>
                 <a href="{{feature.permalink}}" class="button-primary" target="_blank">BOOK KEBERANGKATAN</a>
             </div>
             {% endfor %}
