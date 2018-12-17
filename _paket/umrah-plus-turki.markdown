@@ -5,8 +5,10 @@ permalink: "/paket/umrah-plus-turki.html"
 categories:
 - umrah
 - tour
-harga: 34400000
+image:
+- "/uploads/paket-umrah-murah-turki.jpg"
 maskapai: Saudi Airlines
+harga: 34400000
 hotel:
 - Ramada Atakoy
 - Makarem Ajyad
