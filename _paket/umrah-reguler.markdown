@@ -1,11 +1,13 @@
 ---
 title: Umrah Reguler
-date: 2018-10-14 04:53:00 Z
+date: 2018-12-02 04:53:00 Z
 permalink: "/paket/umrah-paket-reguler.html"
 categories:
 - umrah
 image:
 - "/uploads/umrah-reguler.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
 maskapai: Saudi Airlines
 harga: 24500000
 hotel:
