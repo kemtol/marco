@@ -1,11 +1,13 @@
 ---
 title: Umrah 2 Jumat
-date: 2018-10-14 05:06:00 Z
+date: 2018-12-01 05:06:00 Z
 permalink: "/paket/umrah-2-jumat.html"
 categories:
 - umrah
-harga: 27750000
+image:
+- "/uploads/umrah-2-jumat.jpg"
 maskapai: Saudi Airlines
+harga: 27750000
 hotel:
 - Makarem Ajyad
 - Al Rawda Al Aqeeq
