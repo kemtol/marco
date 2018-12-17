@@ -43,7 +43,7 @@ layout: default
     <div class="col-xs-12 col-md-4 a2">
       <div class="b1 c1 bharga">
         <h2>Harga</h2>
-        {% if page.hargausd %}
+        {% if page.hargausd and page.hargausd != 0 %}
           <span>{{ page.hargausd | money_without_currency }} USD</span> <small>/ jamaah</small>
         {% else %}
           <span>Rp {{ page.harga | money_without_currency }}</span> <small>/ jamaah</small>
