@@ -44,7 +44,7 @@ layout: default
                 <div class="form-group">
                   <label class="hidden col-md-4" for="singlebutton"></label>
                   <div class="col-xs-12">
-                    <a href="https://api.whatsapp.com/send?phone=6281381462334&amp;text=Assalamualaikum%20Marco%20Umrah" id="singlebutton" name="singlebutton" class="btn btn-primary pull-right btn-red">Konfirmasi <i class="fas fa-arrow-right"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=6281381462334&amp;text=Assalamualaikum%20Marco%20Umrah" id="singlebutton" name="singlebutton" class="btn btn-primary pull-right btn-red">Daftarkan Saya <i class="fas fa-arrow-right"></i></a>
                   </div>
                 </div>
               </fieldset>
@@ -57,13 +57,14 @@ layout: default
     <div class="col-xs-12 col-md-4 a2">
       <div class="b1 c1">
         <h2>Booking Detail</h2>
-        <strong>Estimasi Harga</strong>
-        <span>Rp 24500000</span></small>
-        <hr>
-        <strong>Keberangkatan</strong><br/>
-        Januari 2019<br/>
+        <strong>Harga Total:</strong><br/>
+        <span id="harga">Rp 24500000 (estimasi)</span> x (<span id="jamaah"></span>)
+        <span id="total">Rp 24500000 (estimasi)</span>
+        <hr style="margin-bottom:20px">
+        <strong>Keberangkatan:</strong><br/>
+        <span id="keberangkatan">Januari 2019</span><br/><br/>
         <strong>Maskapai</strong>
-        Saudi Airlines
+        <span id="maskapai">Saudi Airlines</span>
       </div>
     </div>
      
