@@ -35,6 +35,17 @@ defaults:
     hargasale: 0
     hotel:
     - Al Rawda Al Aqeeq
+- scope:
+    path: ''
+    type: hotel
+  values:
+    layout: static
+    image:
+    - "/uploads/hotel-al-fajar-1.jpg"
+    - "/uploads/hotel-al-fajar-1.jpg"
+    - "/uploads/hotel-al-fajar-1.jpg"
+    bintang: 5
+    kota: Madinah
 name: MARCO Haji, Umrah
 description: Muslim Trip Tour & Travel
 avatar: 
