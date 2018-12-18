@@ -7,6 +7,6 @@ cabangpic: SITI FATHONAH
 cabangalamat: JL. FATHAHILAH NO. 4 RT. 04 RW. 01 KEL. SUMBER KEC. SUMBER CIREBON JAWA
   BARAT
 cabangtelp: 0231-325632
-layout: static
+layout: blank
 ---
 
