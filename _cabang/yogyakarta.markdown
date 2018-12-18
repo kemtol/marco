@@ -5,7 +5,7 @@ permalink: "/cabang/yogyakarta.html"
 cabangwa: 6281804225566
 cabangpic: AHMAD SULUKI
 cabangalamat: JL. IMOGIRI TIMUR, TAMANAN, BANGUN TAPAN, BANTUL, YOGYAKARTA.
-layout: static
+layout: blank
 ---
 
 	 
