@@ -7,6 +7,6 @@ cabangpic: HAFIZ THALIB
 cabangalamat: JL. BASUKI RAHMAT NO. 119A BESUKI SITUBONDO, KAB. SITUBONDO, JAWA TIMUR,
   68356.
 cabangtelp: '0338-680456'
-layout: static
+layout: blank
 ---
 
