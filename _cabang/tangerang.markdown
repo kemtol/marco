@@ -6,6 +6,6 @@ cabangwa: 6285692204969
 cabangpic: ALI AKBAR MUTIARA
 cabangalamat: JL. GARUDA NO. 10 RT. 001 RW. 006, KEL. BATUJAYA, KEC. BATUCEPER, TANGERANG,
   BANTEN.
-layout: static
+layout: blank
 ---
 
