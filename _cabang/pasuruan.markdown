@@ -7,6 +7,6 @@ cabangpic: Amer
 cabangalamat: JL. IRIAN JAYA NO. 36 RT. 005 RW. 006, KEL. KARANGANYAR, KEC. PANGGUNGREJO,
   PASURUAN, JAWA TIMUR.
 cabangtelp: 0342-56455566
-layout: static
+layout: blank
 ---
 
