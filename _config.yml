@@ -43,7 +43,7 @@ defaults:
     path: ''
     type: hotel
   values:
-    layout: static
+    layout: blank
     image:
     - "/uploads/hotel-al-fajar-1.jpg"
     - "/uploads/hotel-al-fajar-1.jpg"
@@ -54,14 +54,14 @@ defaults:
     path: ''
     type: agen
   values:
-    layout: static
+    layout: blank
     agenwa: '0812xxxxxxxxx'
     agenalamat: Jl. xxxxxx
 - scope:
     path: ''
     type: cabang
   values:
-    layout: static
+    layout: blank
     cabangwa: '0812xxxxxxxxx'
     cabangpic: Bpk / Ibu xxx
     cabangalamat: Jl. xxxxxx
