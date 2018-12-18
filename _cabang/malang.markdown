@@ -5,7 +5,7 @@ permalink: "/cabang/malang.html"
 cabangwa: 6287859305080
 cabangpic: MUHAMMAD ISMAIL
 cabangalamat: JL. DIRAN NO. 2 KOTA WISATA BATU JAWA TIMUR
-layout: static
+layout: blank
 ---
 
 	
