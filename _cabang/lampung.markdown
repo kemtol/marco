@@ -6,6 +6,6 @@ cabangwa: 6281367358004
 cabangpic: TIA NINGSIH
 cabangalamat: JL. RW. MONGINSIDI GG. MADRASAH NO. 7-8 RT. 0009/000, KEL. TALANG, KEC.
   TELUK, BETUNG SELATAN, LAMPUNG.
-layout: static
+layout: blank
 ---
 
