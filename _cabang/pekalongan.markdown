@@ -5,6 +5,6 @@ permalink: "/cabang/pekalongan.html"
 cabangwa: 6285201488261
 cabangpic: Zainal Arifin
 cabangalamat: Kota Pekalongan
-layout: static
+layout: blank
 ---
 
