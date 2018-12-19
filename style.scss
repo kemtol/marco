@@ -99,9 +99,11 @@ div.right_ribbon::before{
 header {
 	border-bottom:1px solid #fff;
 	#izin{
-    background: gold;
+    background: #ffe14c;
     border-top: 1px solid #fff;
     color: darkgreen;
+    padding: 5px;
+    font-weight: bold;
 	}
   .navbar-header{
     img{
@@ -360,6 +362,14 @@ header {
       }
     }
   }
+}
+
+.slight-yellow{
+  background:#fffced;
+  margin-top:40px;
+  margin-bottom:40px;
+  padding-top:40px;
+  padding-bottom:40px;
 }
 
 .why-row{
@@ -750,7 +760,6 @@ div[id*='page-']{
 	}
 
   ul{
-    list-style:unset;
     list-style-position: inside;
     font-size:16px;
     line-height: 24px;
