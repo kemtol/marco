@@ -476,12 +476,12 @@ div[id*='page-']{
   ol {
     list-style: none;
     counter-reset: my-awesome-counter;
-    padding:0;
   }
   ol li {
     counter-increment: my-awesome-counter;
     font-size:16px;
     line-height:24px;
+    margin-bottom:6px;
   }
   ol li::before {
     content: counter(my-awesome-counter) ". ";
