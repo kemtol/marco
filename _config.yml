@@ -75,7 +75,7 @@ defaults:
   values:
     layout: blank
     image: "/masukkan-photo-jamaah.jpg"
-    date: ""
+    date: ''
 name: MARCO Haji, Umrah
 description: Muslim Trip Tour & Travel
 avatar: 
