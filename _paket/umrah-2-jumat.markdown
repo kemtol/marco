@@ -24,16 +24,12 @@ layout: paket
 
 ![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![hotel-al-fajar-2.jpg](/uploads/hotel-al-fajar-2.jpg)
 
-1. Jakarta – Jeddah
-2. Jeddah – Madinah
+1. Jakarta - Jeddah - Madinah
+2. Madinah
 3. Madinah
-4. Madinah
-5. Madinah
-6. Madinah
-7. Madinah – Mekkah
-8. Mekkah
-9. Mekkah
-10. Mekkah
-11. Mekkah
-12. Mekkah – Jeddah
-13. Jeddah – Jakarta
+4. Madinah - Makkah
+5. Makkah
+6. Makkah
+7. Makkah
+8. Makkah - Jeddah - Jakarta
+9. Jakarta
