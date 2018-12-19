@@ -7,6 +7,8 @@ categories:
 - tour
 image:
 - "/uploads/paket-umrah-murah-turki.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
+- "/uploads/hotel-al-fajar-1.jpg"
 maskapai: Saudi Airlines
 harga: 34400000
 hotel:
@@ -21,16 +23,12 @@ layout: paket
 
 ![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![liburan4.jpg](/uploads/liburan4.jpg)
 
-1. Jakarta – Jeddah
-2. Jeddah – Istanbul
-3. Istanbul – Bursa
-4. Istanbul
-5. Istanbul – Madinah
-6. Madinah
-7. Madinah
-8. Madinah – Mekkah
-9. Mekkah
-10. Mekkah
-11. Mekkah
-12. Mekkah – Jeddah
-13. Jeddah – Jakarta
+1. Jakarta - Jeddah - Madinah
+2. Madinah
+3. Madinah
+4. Madinah - Makkah
+5. Makkah
+6. Makkah
+7. Makkah
+8. Makkah - Jeddah - Jakarta
+9. Jakarta
