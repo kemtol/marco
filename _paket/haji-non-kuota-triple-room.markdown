@@ -9,11 +9,11 @@ image:
 - "/uploads/hotel-al-fajar-1.jpg"
 - "/uploads/hotel-al-fajar-2.jpg"
 maskapai: Saudi Airlines
+hargausd: 19000
 hotel:
 - Makarem Ajyad
 - Al Rawda Al Aqeeq
 durasi: 15
-hargausd: 19000
 paxroom: 3
 layout: paket
 ---
@@ -22,15 +22,25 @@ layout: paket
 
 ![hotel-al-fajar-1.jpg](/uploads/hotel-al-fajar-1.jpg)![hotel-al-fajar-2.jpg](/uploads/hotel-al-fajar-2.jpg)
 
-1. Berangkat dari Bandara Soekarno Hatta, Jakarta
-2. Tiba di Madinah
-3. Tiba di Makkah
-4. Tiba di Mina
-5. Sampai di Tenda 112 Mina
-6. Sampai di Masjidil Haram
-7. Muzdalifah
-8. Tenda 112 Arafah
-9. Sampai di Hotel Transit Makkah
-10. Sampai di Hotel Dar Tawhid Intercon Makkah
-11. Kembali ke Jeddah
-12. Insya Allah, tiba di Jakarta tepat waktu. Aamin.
+1. Jakarta - Jeddah - Makkah
+2. Hotel Transit
+3. Hotel Transit
+4. Mina (Tarwiyah)
+5. Arafah
+6. Muzdalifah - Mina
+7. Mina
+8. Mina
+9. Mina
+10. Mina - Hotel Transit
+11. Hotel Transit - Makkah
+12. Makkah
+13. Makkah 
+14. Makkah
+15. Makkah
+16. Makkah
+17. Makkah - Madinah
+18. Madinah
+19. Madinah
+20. Madinah
+21. Madinah - Jakarta
+22. Jakarta
