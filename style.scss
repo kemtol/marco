@@ -831,7 +831,7 @@ div[id*='page-']{
 
 .single-testimonial h5 {
   font-weight: 300;
-  color: #777;
+  font-size:24px;
 }
 
 .single-testimonial h5 small {
@@ -851,13 +851,12 @@ div[id*='page-']{
 }
 
 .client-image {
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 100px;
+  width:100px;
 }
 
 .client-image img {
   border-radius: 50%;
+  width:100%;
 }
 
 .client-info {
