@@ -69,6 +69,12 @@ defaults:
     cabangpic: Bpk / Ibu xxx
     cabangalamat: Jl. xxxxxx
     cabangtelp: "(02x) xxxx xxxx"
+- scope:
+    path: ''
+    type: testimonials
+  values:
+    layout: blank
+    image: "/masukkan-photo-jamaah.jpg"
 name: MARCO Haji, Umrah
 description: Muslim Trip Tour & Travel
 avatar: 
