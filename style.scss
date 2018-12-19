@@ -739,6 +739,17 @@ div[id*='page-']{
 			}
 		}
 	}
+
+  ul{
+    list-style:unset;
+    list-style-position: inside;
+    font-size:16px;
+    font-size: 16px;
+    line-height: 24px;
+    li:before {
+      content:"\2714\0020";
+    } 
+  }
 }
 
 #perbandingan-haji{
@@ -770,6 +781,7 @@ div[id*='page-']{
         td:first-child{
           background: #f9f9f9;
           border-right:1px solid #ccc;
+          font-weight:bold;
         }
     }
   }
