@@ -5,10 +5,18 @@ layout: page
 thispage: tour
 ---
 
-<div class="section-features">
-    <div class="tix-column-nowrap tix-flex-center container tix-border-bottom tix-py-225">
-        <h1 class="text-center">MARCO Tour, Solusi Cerdas untuk Dapatkan Harga Tour Murah</h1>
-        <p class="text-center mb-40">Wisata syariah? travel muslim? atau apapun keperluan berwisata islami anda konsultasikan bersama team MARCO tour and travel islami</p>
+
+<div class="section-paragraph">
+    <div class="container">
+        <h1 class="text-center">{{page.title}}</h1>
+    </div>
+</div>
+<div class="slight-yellow">
+    <div class="container"> 
+        <div class="row">
+            <h2 class="col-xs-12 text-center">MARCO Tour, Solusi Cerdas untuk Dapatkan Harga Tour Murah</h2>
+            <p class="col-xs-12 text-center mb-40">Wisata syariah? travel muslim? atau apapun keperluan berwisata islami anda konsultasikan bersama team MARCO tour and travel islami</p>
+        </div>
         <div class="row tix-point-highlight">
             {% assign groups = site.paket | where:'categories', 'tour' %}
             {% for layanan in groups %}
@@ -18,7 +26,7 @@ thispage: tour
                         <a class="layanan" href="{{base.url}}{{layanan.permalink}}">
                             {{ layanan.content }}
                             <h4>{{ layanan.title }}</h4>
-                            <h3>Rp {{ layanan.harga }}</h3>
+                            <h3 class="harga">{{ layanan.harga }}</h3>
                             <h5>{{ layanan.maskapai }}</h5>
                             <span class="button-primary">BOOK</span>
                         </a>
@@ -28,7 +36,6 @@ thispage: tour
         </div>
     </div>
 </div>
-<hr>
 <div class="section-features">
     <div class="tix-column-nowrap tix-flex-center container tix-border-bottom tix-py-225">
         <h2 class="text-center">Mengapa MARCO Tour and Travel?</h2>
