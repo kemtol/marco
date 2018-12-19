@@ -24,7 +24,7 @@ thispage: layanan
                     {% if layanan.hargausd and layanan.hargausd != 0 %}
                         <h3>{{ layanan.hargausd | money_without_currency }} USD</h3>
                     {% else %}
-                        <h3>Rp {{ layanan.harga | money_without_currency }}</h3>
+                        <h3 class="harga">{{ layanan.harga }}</h3>
                     {% endif %}
                     <h5>{{ layanan.maskapai }}</h5>
                     <span class="button-primary">BOOK</span>
