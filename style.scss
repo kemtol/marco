@@ -743,6 +743,7 @@ div[id*='page-']{
 
 #perbandingan-haji{
   width:100%;
+  border: 1px solid #ccc; 
   thead{
     tr{
       td{
@@ -752,6 +753,7 @@ div[id*='page-']{
         text-align: center;
         padding:1rem;
         font-weight:bold;
+        width:33.3%;
       }
     }
   }
@@ -760,9 +762,14 @@ div[id*='page-']{
     tr{
         border-bottom: 1px solid #ccc;
         td{
+          width:33.3%;
           text-transform: capitalize;
           text-align: center;
           padding:1rem;
+        }
+        td:first-child{
+          background: #f9f9f9;
+          border-right:1px solid #ccc;
         }
     }
   }
