@@ -31,10 +31,16 @@
 
 	{% include footer.html %}
 
-	<script>
-		//Format currency
+	<script>		
 		$(function() {
+			//Format currency
 			$('.harga').formatCurrency({ roundToDecimalPlace: 0 });
+
+			//Masonry
+			$('.testimonials-list').masonry({
+			  // options
+			  itemSelector: '.testimonial-item',
+			});
 		});
 	</script>
 	
