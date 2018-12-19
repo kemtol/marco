@@ -776,6 +776,9 @@ div[id*='page-']{
         font-weight:bold;
         width:33.3%;
       }
+      td:first-child{
+        background: darkgreen;
+      }
     }
   }
 
