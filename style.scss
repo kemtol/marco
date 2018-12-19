@@ -810,6 +810,108 @@ div[id*='page-']{
   }
 }
 
+/*********************
+* testimonials
+**********************/
+
+.testimonials-section {
+  padding-bottom: 100px;
+}
+
+.single-testimonial {
+  background: #fff;
+  margin-bottom: 30px;
+}
+
+.single-testimonial ul li {
+  display: inline-block;
+  font-size: 12px;
+  color: #4c86fa;
+}
+
+.single-testimonial h5 {
+  font-weight: 300;
+  color: #777;
+}
+
+.single-testimonial h5 small {
+  display: block;
+  font-size: 12px;
+  font-weight: 900;
+  color: #000;
+  padding: 16px 0 10px;
+  text-transform: uppercase;
+}
+
+.st-top {
+  display: flex;
+  align-items: center;
+  padding: 40px;
+  border-bottom: 1px solid #edf3ff;
+}
+
+.client-image {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 100px;
+}
+
+.client-image img {
+  border-radius: 50%;
+}
+
+.client-info {
+  flex-grow: 1;
+  flex-shrink: 0;
+  padding-left: 30px;
+}
+
+.st-bottom {
+  position: relative;
+  padding: 40px;
+}
+
+.st-bottom .icofont {
+  position: absolute;
+  font-size: 72px;
+  color: #edf3ff;
+  z-index: 1;
+  left: 36px;
+  top: 22px;
+}
+
+.st-bottom blockquote {
+  position: relative;
+  z-index: 2;
+}
+
+.video-testimonial {
+  position: relative;
+  text-align: center;
+}
+
+.video-testimonial .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  padding: 100px 0 40px;
+}
+
+.video-testimonial a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.video-testimonial .client-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding-bottom: 35px;
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
