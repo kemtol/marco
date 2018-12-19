@@ -486,6 +486,9 @@ div[id*='page-']{
   ol li::before {
     content: counter(my-awesome-counter) ". ";
     color: green;
+    font-weight: bold;
+    margin-right: 10px;
+
   }
   hr{
     margin-top:40px;
@@ -753,6 +756,8 @@ div[id*='page-']{
     line-height: 24px;
     li:before {
       content:"\2714\0020";
+      color: green;
+      margin-right: 10px;
     } 
   }
 }
