@@ -23576,7 +23576,9 @@ h3.h3-bold {
 
 .menu-main.navbar-nav li {
     padding: 0 15px 0;
-    display: inline-block
+    display: inline-block;
+    margin-bottom: 0;
+
 }
 
 .menu-main.navbar-nav li:last-child a {
@@ -23682,13 +23684,14 @@ h3.h3-bold {
 }
 
 .menu-main-member.navbar-nav {
-    padding-top: 10px;
+    padding-top: 4px;
     float: right;
     margin: 0 -15px
 }
 
 .menu-main-member.navbar-nav>li {
-    display: inline-block
+    display: inline-block;
+    margin-bottom: 0;
 }
 
 
