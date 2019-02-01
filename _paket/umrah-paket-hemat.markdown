@@ -17,7 +17,7 @@ hotel:
 - Al Fajr Al Badea
 - Al Mukhtara
 durasi: 9
-video: https://www.youtube.com/watch?v=Ig19gH7BUUM
+video: https://www.youtube.com/watch?v=hd4o2zqHzmk
 shortdesc:
 - Paket Paket Hemat, Aman dan Nyaman
 - Marco Umrah Haji dan Travel berpengalaman mengantarkan tamu-tamu Allah sejak tahun
