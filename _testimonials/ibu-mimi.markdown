@@ -2,6 +2,7 @@
 title: Ibu Mimi
 date: 2019-02-24 08:23:00 Z
 image: "/uploads/testi-3.jpg"
+kloter: 24 Januari 2019
 ---
 
 Assalamualaikum pa Ustadz zaenal,bapak dan ibu jamaah Marco.
