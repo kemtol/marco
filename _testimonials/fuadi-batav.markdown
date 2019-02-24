@@ -1,7 +1,7 @@
 ---
 title: Fuadi Batav
 date: 2019-02-24 08:14:00 Z
-image: "/uploads/testi-2.jpg"
+image: "/uploads/testi-marco-fuadi.jpg"
 kloter: 24 Januari 2019
 ---
 
