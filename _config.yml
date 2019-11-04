@@ -78,7 +78,7 @@ defaults:
   values:
     layout: blank
     image: "/masukkan-photo-jamaah.jpg"
-name: MARCO Haji, Umrah
+name: MARCO UMRAH & HAJJ
 description: Muslim Trip Tour & Travel
 avatar: 
 wa: 6281381462334
@@ -86,7 +86,7 @@ footer-links:
 disqus: 
 google_analytics: UA-77777148-3
 url: http://marcoumrah.com
-baseurl: ''
+baseurl: 
 permalink: "/:title/"
 version: v1.2.0
 kramdown:
@@ -95,7 +95,7 @@ kramdown:
   syntax_highlighter_opts:
     css_class: highlight
 sass:
-  style: :expanded
+  style: expanded
 gems:
 - jekyll-sitemap
 - jekyll-feed
